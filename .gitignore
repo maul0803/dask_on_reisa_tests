@@ -1,0 +1,10 @@
+jobs.log
+cmake_install.cmake
+CMakeCache.txt
+CMakeFiles
+__pycache__
+get_times.sh
+regs/
+times.txt
+grep.txt
+run_everything.sh
