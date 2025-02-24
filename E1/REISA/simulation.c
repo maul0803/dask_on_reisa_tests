@@ -208,8 +208,8 @@ int main( int argc, char* argv[] )
     // the main loop
     for (; ii<generations; ++ii) {
 
-        // if(!pcoord_1d && ii % module == 0)
-            // fprintf(stderr, "Iter [%d]\n", ii);
+        if(!pcoord_1d && ii % module == 0)
+            fprintf(stderr, "Iter [%d]\n", ii);
 
         PDI_multi_expose("Available",
                  "timestep",         &ii, PDI_OUT,
@@ -246,7 +246,7 @@ int main( int argc, char* argv[] )
         fprintf(stderr,"%-21s%.15f (avg: %.15f)\n", "SIMULATION_TIME:", end-start, (end-start)/generations);
         fprintf(stderr, "%-21s%.15f (avg: %.15f)\n", "SIM_WTHOUT_PDI:", no_pdi, no_pdi/generations);
         fprintf(stderr, "%-21s%.15f (avg: %.15f)\n\n", "PDI_DELAY:", end-start-no_pdi, (end-start-no_pdi)/generations);
-        fprintf(stderr, "%-21s%.0f\n", "GLOBAL_SIZE_(GiB):", (float) global_size[0] * (float) global_size[1] / (1024) / (1024) * sizeof(double));
+        fprintf(stderr, "%-21s%.0f\n", "GLOBAL_SIZE_(GiB):", (float) global_size[0] * (float) global_size[1] / (1024) * sizeof(double));
         fprintf(stderr, "%-21s%.0f\n", "LOCAL_SIZE_(MiB):", (float) (global_size[0]/psize[0])*(global_size[1]/psize[1])*sizeof(double)/(1024*1024));
         fprintf(stderr, "%-21s%ld\n\n", "ITERATIONS:", generations);
         fprintf(stderr, "%-21s%ld\n", "MPI_PER_NODE:", mpi_per_node);

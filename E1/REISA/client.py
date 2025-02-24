@@ -1,9 +1,9 @@
 import time
 import numpy as np
-from reisa import Reisa  # Mandatory import
+from  reisa import Reisa # Mandatory import
 import os
 
-# The user can decide which task is executed on each level of the following tree.
+# The user can decide which task is executed on each level of the following tree
 """
    [p0 p1 p2 p3]-->[p0 p1 p2 p3]      # One task per process per iteration (we can get previous iterations' data)
     \  /   \  /     \  /  \  /
@@ -13,14 +13,13 @@ import os
     # We can get the result of previous iterations.
 """
 
-# Get Infiniband address from environment variables
+# Get infiniband address
 address = os.environ.get("RAY_ADDRESS").split(":")[0]
-
-# Initialize Reisa handler (mandatory for the simulation)
+# Starting reisa (mandatory)
 handler = Reisa("config.yml", address)
 max_iterations = handler.iterations
-
-
+    
+# Process-level analytics code
 def process_func(rank: int, i: int, queue):
     """
     Process-level function executed for each process in an iteration.
@@ -33,8 +32,8 @@ def process_func(rank: int, i: int, queue):
     gt = np.array(queue[i])
     return np.sum(gt)
 
-
-def iter_func(i: int, current_results):
+# Iteration-level analytics code
+def iter_func(i: int, current_results, previous_iterations):
     """
     Iteration-level function that aggregates results from all processes.
 
@@ -44,18 +43,15 @@ def iter_func(i: int, current_results):
     """
     return np.sum(current_results[:])
 
-
 # Define the range of iterations to be executed (default is from 0 to max)
 iterations = list(range(max_iterations))
 
-# Launch analytics (blocking operation)
-# 'kept_iters' defines the number of past iterations kept in memory before the current one
-result = handler.get_result(process_func, iter_func, selected_iters=iterations, kept_iters=max_iterations,
-                            timeline=False)
+# Launch the analytics (blocking operation), kept iters paramerter means the number of iterations kept in memory before the current iteration
+result = handler.get_result(process_func, iter_func, selected_iters=iterations, kept_iters=1, timeline=False)
 
 # Write the results to a log file
 with open("results.log", "a") as f:
-    f.write("\nResults per iteration: " + str(result) + ".\n")
+    f.write("\nResults per iteration: "+str(result)+".\n")
 
 # Shut down the handler and free resources
 handler.shutdown()

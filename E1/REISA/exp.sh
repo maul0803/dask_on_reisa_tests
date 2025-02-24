@@ -20,7 +20,7 @@
 #./Launcher.sh 32 16 32 4096 4096 12 8 30 derivative 4;
 
 # ########################### REDUCTION
-#./Launcher.sh 2 2 2 8192 4096 25 2 30 reduction;
+./Launcher.sh 2 2 2 8192 4096 25 2 30 reduction;
 #./Launcher.sh 2 2 2 8192 8192 25 2 30 reduction;
 #./Launcher.sh 2 4 2 8192 4096 25 4 30 reduction;
 #./Launcher.sh 2 4 2 8192 8192 25 4 30 reduction;
