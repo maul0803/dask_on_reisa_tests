@@ -1,0 +1,228 @@
+slurmstepd: info: Setting TMPDIR to /scratch/10781193. Previous errors about TMPDIR can be discarded
+Slurm job started at 26/02/2025_11:03:52 AM
+
+In transit.
+Initing Ray (1 head node + 8 worker nodes + 16 simulation nodes) on nodes: 
+	ilk-111 ilk-112 ilk-113 ilk-114 ilk-115 ilk-117 ilk-118 ilk-122 ilk-123 ilk-127 ilk-129 ilk-131 ilk-133 ilk-241 ilk-242 ilk-244 ilk-245 ilk-246 ilk-247 ilk-248 ilk-249 ilk-250 ilk-251 ilk-252 ilk-253
+Head node: 172.30.203.15:6379
+
+
+RAY_DEPLOY_TIME:     24.08333
+2025-02-26 11:04:18,751	INFO packaging.py:520 -- Creating a file package for local directory '/mnt/lustre/scratch/nlsas/home/ulc/cursos/curso341/dask_on_reisa_tests/E2/REISA/derivative/P512-SN16-LS134-GS68719-I12-AN8-D2025-02-26_11-02-01'.
+2025-02-26 11:04:18,780	INFO packaging.py:347 -- Pushing file package 'gcs://_ray_pkg_ca613ff3575cbcc9.zip' (0.48MiB) to Ray cluster...
+2025-02-26 11:04:18,787	INFO packaging.py:360 -- Successfully pushed file package 'gcs://_ray_pkg_ca613ff3575cbcc9.zip'.
+RAY_INIT_TIME:       6.97545
+Iter [0]
+Iter [1]
+Iter [2]
+Iter [3]
+Iter [4]
+Iter [5]
+Iter [6]
+Iter [7]
+Iter [8]
+Iter [9]
+Iter [10]
+Iter [11]
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+GLOBAL_PUT_TIME:     9.879413366317749 (avg:0.82328)
+ACTOR_CONCURRENCY:   8
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+[2m[36m(pid=gcs_server, ip=10.120.203.15)[0m E0226 11:06:02.408691043 4024771 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+SIMULATION_TIME:     105.094702861000002 (avg: 8.757891905083333)
+SIM_WTHOUT_PDI:      32.823492850999997 (avg: 2.735291070916666)
+PDI_DELAY:           72.271210010000004 (avg: 6.022600834166667)
+
+GLOBAL_SIZE_(GiB):   67108864
+LOCAL_SIZE_(MiB):    128
+ITERATIONS:          12
+
+MPI_PER_NODE:        32
+MPI_PARALLELISM:     512
+
+WORKER_NODES:        8
+CPUS_PER_WORKER:     30
+WORKER_PARALLELISM:  240
+
+
+SLURM_JOB_ID:        10781193
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** JOB 10781193 ON ilk-111 CANCELLED AT 2025-02-26T11:24:06 DUE TO TIME LIMIT ***
+slurmstepd: error: *** STEP 10781193.26 ON ilk-112 CANCELLED AT 2025-02-26T11:24:06 DUE TO TIME LIMIT ***

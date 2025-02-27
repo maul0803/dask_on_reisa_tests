@@ -1,0 +1,10 @@
+MaxtimeSteps: 12
+cpus_per_worker: 30
+global_size:
+  height: 32768
+  width: 32768
+mpi_per_node: 2
+parallelism:
+  height: 4
+  width: 4
+workers: 8

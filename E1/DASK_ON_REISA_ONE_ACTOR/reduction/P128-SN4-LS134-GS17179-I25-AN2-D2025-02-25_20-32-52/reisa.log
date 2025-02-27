@@ -1,0 +1,139 @@
+slurmstepd: info: Setting TMPDIR to /scratch/10772549. Previous errors about TMPDIR can be discarded
+Slurm job started at 26/02/2025_12:32:38 AM
+
+In transit.
+Initing Ray (1 head node + 2 worker nodes + 4 simulation nodes) on nodes: 
+	ilk-97 ilk-98 ilk-99 ilk-100 ilk-101 ilk-102 ilk-103
+Head node: 172.30.203.1:6379
+
+
+RAY_DEPLOY_TIME:     22.37099
+2025-02-26 00:33:04,934	INFO packaging.py:520 -- Creating a file package for local directory '/mnt/lustre/scratch/nlsas/home/ulc/cursos/curso341/dask_on_reisa_tests/E1/DASK_ON_REISA_ONE_ACTOR/reduction/P128-SN4-LS134-GS17179-I25-AN2-D2025-02-25_20-32-52'.
+2025-02-26 00:33:04,960	INFO packaging.py:347 -- Pushing file package 'gcs://_ray_pkg_bd479727aa81326d.zip' (0.48MiB) to Ray cluster...
+2025-02-26 00:33:04,967	INFO packaging.py:360 -- Successfully pushed file package 'gcs://_ray_pkg_bd479727aa81326d.zip'.
+RAY_INIT_TIME:       6.69706
+Iter [0]
+Iter [2]
+Iter [4]
+Iter [6]
+Iter [8]
+Iter [10]
+Iter [12]
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** JOB 10772549 ON ilk-97 CANCELLED AT 2025-02-26T00:52:44 DUE TO TIME LIMIT ***
+slurmstepd: error: *** STEP 10772549.8 ON ilk-98 CANCELLED AT 2025-02-26T00:52:44 DUE TO TIME LIMIT ***
+slurmstepd: error: *** STEP 10772549.9 ON ilk-100 CANCELLED AT 2025-02-26T00:52:44 DUE TO TIME LIMIT ***
+*** SIGTERM received at time=1740527564 on cpu 43 ***
+*** SIGTERM received at time=1740527564 on cpu 2 ***
+*** SIGTERM received at time=1740527564 on cpu 0 ***
+*** SIGTERM received at time=1740527564 on cpu 43 ***
+*** SIGTERM received at time=1740527564 on cpu 42 ***
+*** SIGTERM received at time=1740527564 on cpu 40 ***
+*** SIGTERM received at time=1740527564 on cpu 7 ***
+*** SIGTERM received at time=1740527564 on cpu 8 ***
+*** SIGTERM received at time=1740527564 on cpu 38 ***
+*** SIGTERM received at time=1740527564 on cpu 12 ***
+*** SIGTERM received at time=1740527564 on cpu 34 ***
+*** SIGTERM received at time=1740527564 on cpu 51 ***
+*** SIGTERM received at time=1740527564 on cpu 32 ***
+*** SIGTERM received at time=1740527564 on cpu 49 ***
+*** SIGTERM received at time=1740527564 on cpu 36 ***
+*** SIGTERM received at time=1740527564 on cpu 44 ***
+*** SIGTERM received at time=1740527564 on cpu 45 ***
+*** SIGTERM received at time=1740527564 on cpu 35 ***
+*** SIGTERM received at time=1740527564 on cpu 12 ***
+*** SIGTERM received at time=1740527564 on cpu 37 ***
+*** SIGTERM received at time=1740527564 on cpu 5 ***
+*** SIGTERM received at time=1740527564 on cpu 13 ***
+*** SIGTERM received at time=1740527564 on cpu 10 ***
+*** SIGTERM received at time=1740527564 on cpu 1 ***
+*** SIGTERM received at time=1740527564 on cpu 40 ***
+*** SIGTERM received at time=1740527564 on cpu 8 ***
+*** SIGTERM received at time=1740527564 on cpu 4 ***
+*** SIGTERM received at time=1740527564 on cpu 1 ***
+*** SIGTERM received at time=1740527564 on cpu 14 ***
+*** SIGTERM received at time=1740527564 on cpu 50 ***
+*** SIGTERM received at time=1740527564 on cpu 19 ***
+*** SIGTERM received at time=1740527564 on cpu 4 ***
+*** SIGTERM received at time=1740527564 on cpu 15 ***
+*** SIGTERM received at time=1740527564 on cpu 48 ***
+*** SIGTERM received at time=1740527564 on cpu 19 ***
+*** SIGTERM received at time=1740527564 on cpu 33 ***
+*** SIGTERM received at time=1740527564 on cpu 38 ***
+*** SIGTERM received at time=1740527564 on cpu 14 ***
+*** SIGTERM received at time=1740527564 on cpu 47 ***
+*** SIGTERM received at time=1740527564 on cpu 17 ***
+*** SIGTERM received at time=1740527564 on cpu 10 ***
+*** SIGTERM received at time=1740527564 on cpu 5 ***
+*** SIGTERM received at time=1740527564 on cpu 51 ***
+*** SIGTERM received at time=1740527564 on cpu 13 ***
+*** SIGTERM received at time=1740527564 on cpu 34 ***
+*** SIGTERM received at time=1740527564 on cpu 3 ***
+*** SIGTERM received at time=1740527564 on cpu 7 ***
+*** SIGTERM received at time=1740527564 on cpu 41 ***
+*** SIGTERM received at time=1740527564 on cpu 14 ***
+*** SIGTERM received at time=1740527564 on cpu 12 ***
+*** SIGTERM received at time=1740527564 on cpu 45 ***
+*** SIGTERM received at time=1740527564 on cpu 16 ***
+*** SIGTERM received at time=1740527564 on cpu 50 ***
+*** SIGTERM received at time=1740527564 on cpu 37 ***
+*** SIGTERM received at time=1740527564 on cpu 33 ***
+*** SIGTERM received at time=1740527564 on cpu 51 ***
+*** SIGTERM received at time=1740527564 on cpu 6 ***
+*** SIGTERM received at time=1740527564 on cpu 15 ***
+*** SIGTERM received at time=1740527564 on cpu 11 ***
+*** SIGTERM received at time=1740527564 on cpu 5 ***
+*** SIGTERM received at time=1740527564 on cpu 6 ***
+*** SIGTERM received at time=1740527564 on cpu 44 ***
+*** SIGTERM received at time=1740527564 on cpu 16 ***
+*** SIGTERM received at time=1740527564 on cpu 39 ***
+*** SIGTERM received at time=1740527564 on cpu 11 ***
+*** SIGTERM received at time=1740527564 on cpu 36 ***
+*** SIGTERM received at time=1740527564 on cpu 2 ***
+*** SIGTERM received at time=1740527564 on cpu 13 ***
+*** SIGTERM received at time=1740527564 on cpu 42 ***
+*** SIGTERM received at time=1740527564 on cpu 4 ***
+*** SIGTERM received at time=1740527564 on cpu 48 ***
+*** SIGTERM received at time=1740527564 on cpu 9 ***
+*** SIGTERM received at time=1740527564 on cpu 43 ***
+*** SIGTERM received at time=1740527564 on cpu 3 ***
+*** SIGTERM received at time=1740527564 on cpu 32 ***
+*** SIGTERM received at time=1740527564 on cpu 37 ***
+*** SIGTERM received at time=1740527564 on cpu 9 ***
+*** SIGTERM received at time=1740527564 on cpu 33 ***
+*** SIGTERM received at time=1740527564 on cpu 49 ***
+*** SIGTERM received at time=1740527564 on cpu 12 ***
+*** SIGTERM received at time=1740527564 on cpu 35 ***
+*** SIGTERM received at time=1740527564 on cpu 8 ***
+*** SIGTERM received at time=1740527564 on cpu 32 ***
+*** SIGTERM received at time=1740527564 on cpu 36 ***
+*** SIGTERM received at time=1740527564 on cpu 50 ***
+*** SIGTERM received at time=1740527564 on cpu 0 ***
+*** SIGTERM received at time=1740527564 on cpu 2 ***
+*** SIGTERM received at time=1740527564 on cpu 5 ***
+*** SIGTERM received at time=1740527564 on cpu 44 ***
+*** SIGTERM received at time=1740527564 on cpu 45 ***
+*** SIGTERM received at time=1740527564 on cpu 11 ***
+*** SIGTERM received at time=1740527564 on cpu 14 ***
+*** SIGTERM received at time=1740527564 on cpu 48 ***
+*** SIGTERM received at time=1740527564 on cpu 16 ***
+*** SIGTERM received at time=1740527564 on cpu 6 ***
+*** SIGTERM received at time=1740527564 on cpu 49 ***
+*** SIGTERM received at time=1740527564 on cpu 42 ***
+*** SIGTERM received at time=1740527564 on cpu 18 ***
+*** SIGTERM received at time=1740527564 on cpu 39 ***
+*** SIGTERM received at time=1740527564 on cpu 10 ***
+*** SIGTERM received at time=1740527564 on cpu 38 ***
+*** SIGTERM received at time=1740527564 on cpu 51 ***
+*** SIGTERM received at time=1740527564 on cpu 1 ***
+*** SIGTERM received at time=1740527564 on cpu 9 ***
+*** SIGTERM received at time=1740527564 on cpu 4 ***
+*** SIGTERM received at time=1740527564 on cpu 3 ***
+*** SIGTERM received at time=1740527564 on cpu 34 ***
+*** SIGTERM received at time=1740527564 on cpu 41 ***
+*** SIGTERM received at time=1740527564 on cpu 15 ***
+*** SIGTERM received at time=1740527564 on cpu 7 ***
+*** SIGTERM received at time=1740527564 on cpu 17 ***
+*** SIGTERM received at time=1740527564 on cpu 8 ***
+*** SIGTERM received at time=1740527564 on cpu 0 ***

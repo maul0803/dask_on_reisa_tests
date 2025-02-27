@@ -1,0 +1,11 @@
+MaxtimeSteps: 12
+cpus_per_worker: 30
+global_size:
+  height: 2048
+  width: 8192
+mpi_per_node: 32
+number_of_simu_nodes: 4
+parallelism:
+  height: 8
+  width: 16
+workers: 2

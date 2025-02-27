@@ -5,15 +5,21 @@ export PATH=$PATH:/home/ulc/cursos/curso341/.local/bin
 
 START_DIR=$PWD
 
-# cd E1/DEISA; ./exp.sh; cd $START_DIR;
-cd E1/REISA; ./exp.sh; cd $START_DIR;
-cd E1/DASK_ON_REISA; ./exp.sh; cd $START_DIR;
-cd E1/REISA_ONE_ACTOR; ./exp.sh; cd $START_DIR;
-cd E1/DASK_ON_REISA_ONE_ACTOR; ./exp.sh; cd $START_DIR;
+# cd E1/DEISA; "$START_DIR/exp.sh"; cd $START_DIR;
+#cd E1/REISA; "$START_DIR/exp.sh"; cd $START_DIR;
+#cd E1/DASK_ON_REISA; "$START_DIR/exp.sh"; cd $START_DIR;
+#cd E1/REISA_ONE_ACTOR; "$START_DIR/exp.sh"; cd $START_DIR;
+#cd E1/DASK_ON_REISA_ONE_ACTOR; "$START_DIR/exp.sh"; cd $START_DIR;
 
-# cd E2/DEISA; ./exp.sh; cd $START_DIR;
-# cd E2/REISA; ./exp.sh; cd $START_DIR;
-
-# cd E3/DEISA; ./exp.sh; cd $START_DIR;
-# cd E3/REISA; ./exp.sh; cd $START_DIR;
-
+# cd E1/DEISA; "$START_DIR/exp.sh"; cd $START_DIR;
+#cd E2/REISA; "$START_DIR/exp.sh"; cd $START_DIR;
+#cd E2/DASK_ON_REISA; "$START_DIR/exp.sh"; cd $START_DIR;
+#cd E2/REISA_ONE_ACTOR; "$START_DIR/exp.sh"; cd $START_DIR;
+#cd E2/DASK_ON_REISA_ONE_ACTOR; "$START_DIR/exp.sh"; cd $START_DIR;
+#
+#
+## cd E1/DEISA; "$START_DIR/exp.sh"; cd $START_DIR;
+cd E3_TEST1/REISA; "$START_DIR/exp.sh"; cd $START_DIR;
+#cd E3/DASK_ON_REISA; "$START_DIR/exp.sh"; cd $START_DIR;
+cd E3_TEST1/REISA_ONE_ACTOR; "$START_DIR/exp.sh"; cd $START_DIR;
+#cd E3/DASK_ON_REISA_ONE_ACTOR; "$START_DIR/exp.sh"; cd $START_DIR;

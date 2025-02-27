@@ -1,0 +1,611 @@
+slurmstepd: info: Setting TMPDIR to /scratch/10772499. Previous errors about TMPDIR can be discarded
+Slurm job started at 25/02/2025_10:49:20 PM
+
+In transit.
+Initing Ray (1 head node + 8 worker nodes + 8 simulation nodes) on nodes: 
+	ilk-4 ilk-91 ilk-151 ilk-152 ilk-159 ilk-161 ilk-162 ilk-166 ilk-167 ilk-170 ilk-172 ilk-173 ilk-177 ilk-178 ilk-179 ilk-185 ilk-237
+Head node: 172.30.201.4:6379
+
+
+RAY_DEPLOY_TIME:     22.39109
+RAY_INIT_TIME:       4.28161
+Iter [0]
+2025-02-25 22:49:48,787	INFO packaging.py:520 -- Creating a file package for local directory '/mnt/lustre/scratch/nlsas/home/ulc/cursos/curso341/dask_on_reisa_tests/E1/DASK_ON_REISA/derivative/P16-SN8-LS268-GS4294-I12-AN8-D2025-02-25_20-31-02'.
+2025-02-25 22:49:48,815	INFO packaging.py:347 -- Pushing file package 'gcs://_ray_pkg_7e798f9bd4511652.zip' (0.48MiB) to Ray cluster...
+2025-02-25 22:49:48,822	INFO packaging.py:360 -- Successfully pushed file package 'gcs://_ray_pkg_7e798f9bd4511652.zip'.
+Iter [1]
+Iter [2]
+Iter [3]
+Iter [4]
+Iter [5]
+Iter [6]
+Iter [7]
+Iter [8]
+Iter [9]
+Iter [10]
+Iter [11]
+GLOBAL_PUT_TIME:     4.864865303039551 (avg:0.40541)
+ACTOR_CONCURRENCY:   8
+[2m[36m(process_task pid=3792551, ip=10.120.204.18)[0m gt: <class 'dask.array.core.Array'>
+[2m[36m(process_task pid=3792551, ip=10.120.204.18)[0m result: <class 'dask.array.core.Array'>
+[2m[36m(process_task pid=3792551, ip=10.120.204.18)[0m result_dask: <class 'dask.array.core.Array'>
+[2m[36m(process_task pid=2465256, ip=10.120.204.17)[0m gt: <class 'dask.array.core.Array'>[32m [repeated 2x across cluster] (Ray deduplicates logs by default. Set RAY_DEDUP_LOGS=0 to disable log deduplication, or see https://docs.ray.io/en/master/ray-observability/ray-logging.html#log-deduplication for more options.)[0m
+[2m[36m(process_task pid=2465256, ip=10.120.204.17)[0m result: <class 'dask.array.core.Array'>[32m [repeated 2x across cluster][0m
+[2m[36m(process_task pid=2465256, ip=10.120.204.17)[0m result_dask: <class 'dask.array.core.Array'>[32m [repeated 2x across cluster][0m
+[2m[36m(process_task pid=2465256, ip=10.120.204.17)[0m gt: <class 'dask.array.core.Array'>[32m [repeated 2x across cluster][0m
+[2m[36m(process_task pid=2465256, ip=10.120.204.17)[0m result: <class 'dask.array.core.Array'>[32m [repeated 2x across cluster][0m
+[2m[36m(process_task pid=2465256, ip=10.120.204.17)[0m result_dask: <class 'dask.array.core.Array'>[32m [repeated 2x across cluster][0m
+[2m[36m(process_task pid=2464429, ip=10.120.204.17)[0m gt: <class 'dask.array.core.Array'>
+[2m[36m(process_task pid=2464429, ip=10.120.204.17)[0m result: <class 'dask.array.core.Array'>
+[2m[36m(process_task pid=2464429, ip=10.120.204.17)[0m result_dask: <class 'dask.array.core.Array'>
+[2m[36m(process_task pid=2464429, ip=10.120.204.17)[0m gt: <class 'dask.array.core.Array'>
+[2m[36m(process_task pid=2464429, ip=10.120.204.17)[0m result: <class 'dask.array.core.Array'>
+[2m[36m(process_task pid=2464429, ip=10.120.204.17)[0m result_dask: <class 'dask.array.core.Array'>
+[2m[36m(process_task pid=2464429, ip=10.120.204.17)[0m gt: <class 'dask.array.core.Array'>
+[2m[36m(process_task pid=2464429, ip=10.120.204.17)[0m result: <class 'dask.array.core.Array'>
+[2m[36m(process_task pid=2464429, ip=10.120.204.17)[0m result_dask: <class 'dask.array.core.Array'>
+[2m[36m(process_task pid=652156, ip=10.120.204.15)[0m result_dask: <class 'dask.array.core.Array'>
+[2m[36m(process_task pid=652156, ip=10.120.204.15)[0m result_dask: <class 'dask.array.core.Array'>
+[2m[36m(process_task pid=652156, ip=10.120.204.15)[0m result_dask: <class 'dask.array.core.Array'>
+[2m[36m(process_task pid=3794025, ip=10.120.204.18)[0m gt: <class 'dask.array.core.Array'>
+[2m[36m(process_task pid=3794025, ip=10.120.204.18)[0m result: <class 'dask.array.core.Array'>
+[2m[36m(process_task pid=3794025, ip=10.120.204.18)[0m result_dask: <class 'dask.array.core.Array'>
+[2m[36m(process_task pid=2464879, ip=10.120.204.17)[0m gt: <class 'dask.array.core.Array'>
+[2m[36m(process_task pid=2464879, ip=10.120.204.17)[0m result: <class 'dask.array.core.Array'>
+[2m[36m(process_task pid=2464879, ip=10.120.204.17)[0m result_dask: <class 'dask.array.core.Array'>
+[2m[36m(process_task pid=2464879, ip=10.120.204.17)[0m gt: <class 'dask.array.core.Array'>[32m [repeated 2x across cluster] (Ray deduplicates logs by default. Set RAY_DEDUP_LOGS=0 to disable log deduplication, or see https://docs.ray.io/en/master/ray-observability/ray-logging.html#log-deduplication for more options.)[0m
+[2m[36m(process_task pid=2464879, ip=10.120.204.17)[0m result: <class 'dask.array.core.Array'>[32m [repeated 2x across cluster][0m
+[2m[36m(process_task pid=2464879, ip=10.120.204.17)[0m result_dask: <class 'dask.array.core.Array'>[32m [repeated 2x across cluster][0m
+[2m[36m(process_task pid=650500, ip=10.120.204.15)[0m gt: <class 'dask.array.core.Array'>
+[2m[36m(process_task pid=650500, ip=10.120.204.15)[0m result: <class 'dask.array.core.Array'>
+[2m[36m(process_task pid=650500, ip=10.120.204.15)[0m result_dask: <class 'dask.array.core.Array'>
+[2m[36m(process_task pid=650500, ip=10.120.204.15)[0m gt: <class 'dask.array.core.Array'>
+[2m[36m(process_task pid=650500, ip=10.120.204.15)[0m result: <class 'dask.array.core.Array'>
+[2m[36m(process_task pid=650500, ip=10.120.204.15)[0m result_dask: <class 'dask.array.core.Array'>
+[2m[36m(process_task pid=650500, ip=10.120.204.15)[0m gt: <class 'dask.array.core.Array'>
+[2m[36m(process_task pid=650500, ip=10.120.204.15)[0m result: <class 'dask.array.core.Array'>
+[2m[36m(process_task pid=650500, ip=10.120.204.15)[0m result_dask: <class 'dask.array.core.Array'>
+[2m[36m(process_task pid=2466022, ip=10.120.204.17)[0m gt: <class 'dask.array.core.Array'>
+[2m[36m(process_task pid=650563, ip=10.120.204.15)[0m gt: <class 'dask.array.core.Array'>
+[2m[36m(process_task pid=650563, ip=10.120.204.15)[0m result: <class 'dask.array.core.Array'>
+[2m[36m(process_task pid=650563, ip=10.120.204.15)[0m result_dask: <class 'dask.array.core.Array'>
+[2m[36m(process_task pid=650563, ip=10.120.204.15)[0m gt: <class 'dask.array.core.Array'>
+[2m[36m(process_task pid=650563, ip=10.120.204.15)[0m result: <class 'dask.array.core.Array'>
+[2m[36m(process_task pid=650563, ip=10.120.204.15)[0m result_dask: <class 'dask.array.core.Array'>
+[2m[36m(process_task pid=2466023, ip=10.120.204.17)[0m gt: <class 'dask.array.core.Array'>[32m [repeated 2x across cluster] (Ray deduplicates logs by default. Set RAY_DEDUP_LOGS=0 to disable log deduplication, or see https://docs.ray.io/en/master/ray-observability/ray-logging.html#log-deduplication for more options.)[0m
+[2m[36m(process_task pid=2464596, ip=10.120.204.17)[0m gt: <class 'dask.array.core.Array'>
+[2m[36m(process_task pid=2464596, ip=10.120.204.17)[0m result: <class 'dask.array.core.Array'>
+[2m[36m(process_task pid=2464596, ip=10.120.204.17)[0m result_dask: <class 'dask.array.core.Array'>
+[2m[36m(process_task pid=651586, ip=10.120.204.15)[0m gt: <class 'dask.array.core.Array'>[32m [repeated 3x across cluster] (Ray deduplicates logs by default. Set RAY_DEDUP_LOGS=0 to disable log deduplication, or see https://docs.ray.io/en/master/ray-observability/ray-logging.html#log-deduplication for more options.)[0m
+[2m[36m(process_task pid=651361, ip=10.120.204.15)[0m result: <class 'dask.array.core.Array'>[32m [repeated 2x across cluster][0m
+[2m[36m(process_task pid=651361, ip=10.120.204.15)[0m result_dask: <class 'dask.array.core.Array'>[32m [repeated 2x across cluster][0m
+[2m[36m(process_task pid=3794527, ip=10.120.204.18)[0m gt: <class 'dask.array.core.Array'>[32m [repeated 3x across cluster][0m
+[2m[36m(process_task pid=3794527, ip=10.120.204.18)[0m result: <class 'dask.array.core.Array'>[32m [repeated 3x across cluster][0m
+[2m[36m(process_task pid=3794527, ip=10.120.204.18)[0m result_dask: <class 'dask.array.core.Array'>[32m [repeated 3x across cluster][0m
+[2m[36m(process_task pid=2464337, ip=10.120.204.17)[0m gt: <class 'dask.array.core.Array'>
+[2m[36m(process_task pid=2464337, ip=10.120.204.17)[0m result: <class 'dask.array.core.Array'>
+[2m[36m(process_task pid=2464337, ip=10.120.204.17)[0m result_dask: <class 'dask.array.core.Array'>
+[2m[36m(process_task pid=3793030, ip=10.120.204.18)[0m result_dask: <class 'dask.array.core.Array'>
+[2m[36m(process_task pid=3793030, ip=10.120.204.18)[0m result_dask: <class 'dask.array.core.Array'>
+[2m[36m(process_task pid=3793030, ip=10.120.204.18)[0m result_dask: <class 'dask.array.core.Array'>
+[2m[36m(process_task pid=3793030, ip=10.120.204.18)[0m gt: <class 'dask.array.core.Array'>
+[2m[36m(process_task pid=3793030, ip=10.120.204.18)[0m result: <class 'dask.array.core.Array'>
+[2m[36m(process_task pid=3793030, ip=10.120.204.18)[0m result_dask: <class 'dask.array.core.Array'>
+[2m[36m(process_task pid=3792458, ip=10.120.204.18)[0m gt: <class 'dask.array.core.Array'>
+[2m[36m(process_task pid=3792458, ip=10.120.204.18)[0m result: <class 'dask.array.core.Array'>
+[2m[36m(process_task pid=3792458, ip=10.120.204.18)[0m result_dask: <class 'dask.array.core.Array'>
+[2m[36m(process_task pid=3792458, ip=10.120.204.18)[0m gt: <class 'dask.array.core.Array'>
+[2m[36m(process_task pid=3792458, ip=10.120.204.18)[0m result: <class 'dask.array.core.Array'>
+[2m[36m(process_task pid=3792458, ip=10.120.204.18)[0m result_dask: <class 'dask.array.core.Array'>
+[2m[36m(process_task pid=2465663, ip=10.120.204.17)[0m gt: <class 'dask.array.core.Array'>
+[2m[36m(process_task pid=2465663, ip=10.120.204.17)[0m result: <class 'dask.array.core.Array'>
+[2m[36m(process_task pid=2465663, ip=10.120.204.17)[0m result_dask: <class 'dask.array.core.Array'>
+[2m[36m(process_task pid=2466022, ip=10.120.204.17)[0m result: <class 'dask.array.core.Array'>
+[2m[36m(process_task pid=2466022, ip=10.120.204.17)[0m result_dask: <class 'dask.array.core.Array'>
+[2m[36m(process_task pid=3793858, ip=10.120.204.18)[0m gt: <class 'dask.array.core.Array'>
+[2m[36m(process_task pid=3793858, ip=10.120.204.18)[0m result: <class 'dask.array.core.Array'>
+[2m[36m(process_task pid=3793858, ip=10.120.204.18)[0m result_dask: <class 'dask.array.core.Array'>
+[2m[36m(process_task pid=2466023, ip=10.120.204.17)[0m result: <class 'dask.array.core.Array'>[32m [repeated 2x across cluster][0m
+[2m[36m(process_task pid=2466023, ip=10.120.204.17)[0m result_dask: <class 'dask.array.core.Array'>[32m [repeated 2x across cluster][0m
+[2m[36m(process_task pid=2466023, ip=10.120.204.17)[0m gt: <class 'dask.array.core.Array'>
+[2m[36m(process_task pid=2466023, ip=10.120.204.17)[0m result: <class 'dask.array.core.Array'>
+[2m[36m(process_task pid=2466023, ip=10.120.204.17)[0m result_dask: <class 'dask.array.core.Array'>
+[2m[36m(process_task pid=3792911, ip=10.120.204.18)[0m gt: <class 'dask.array.core.Array'>[32m [repeated 2x across cluster][0m
+[2m[36m(process_task pid=3792911, ip=10.120.204.18)[0m result: <class 'dask.array.core.Array'>[32m [repeated 3x across cluster][0m
+[2m[36m(process_task pid=3792911, ip=10.120.204.18)[0m result_dask: <class 'dask.array.core.Array'>[32m [repeated 3x across cluster][0m
+[2m[36m(process_task pid=651586, ip=10.120.204.15)[0m gt: <class 'dask.array.core.Array'>
+[2m[36m(process_task pid=651586, ip=10.120.204.15)[0m result: <class 'dask.array.core.Array'>
+[2m[36m(process_task pid=651586, ip=10.120.204.15)[0m result_dask: <class 'dask.array.core.Array'>
+SIMULATION_TIME:     49.366608703000004 (avg: 4.113884058583333)
+SIM_WTHOUT_PDI:      39.216177589000011 (avg: 3.268014799083334)
+PDI_DELAY:           10.150431113999993 (avg: 0.845869259499999)
+
+GLOBAL_SIZE_(GiB):   4194304
+LOCAL_SIZE_(MiB):    256
+ITERATIONS:          12
+
+MPI_PER_NODE:        2
+MPI_PARALLELISM:     16
+
+WORKER_NODES:        8
+CPUS_PER_WORKER:     30
+WORKER_PARALLELISM:  240
+
+
+SLURM_JOB_ID:        10772499
+[2m[36m(process_task pid=3793030, ip=10.120.204.18)[0m gt: <class 'dask.array.core.Array'>[32m [repeated 2x across cluster] (Ray deduplicates logs by default. Set RAY_DEDUP_LOGS=0 to disable log deduplication, or see https://docs.ray.io/en/master/ray-observability/ray-logging.html#log-deduplication for more options.)[0m
+[2m[36m(process_task pid=3793030, ip=10.120.204.18)[0m result: <class 'dask.array.core.Array'>[32m [repeated 2x across cluster][0m
+[2m[36m(process_task pid=3793030, ip=10.120.204.18)[0m result_dask: <class 'dask.array.core.Array'>[32m [repeated 2x across cluster][0m
+[2m[36m(process_task pid=651918, ip=10.120.204.15)[0m gt: <class 'dask.array.core.Array'>
+[2m[36m(process_task pid=651918, ip=10.120.204.15)[0m result: <class 'dask.array.core.Array'>
+[2m[36m(process_task pid=651918, ip=10.120.204.15)[0m result_dask: <class 'dask.array.core.Array'>
+[2m[36m(process_task pid=652753, ip=10.120.204.15)[0m gt: <class 'dask.array.core.Array'>[32m [repeated 2x across cluster] (Ray deduplicates logs by default. Set RAY_DEDUP_LOGS=0 to disable log deduplication, or see https://docs.ray.io/en/master/ray-observability/ray-logging.html#log-deduplication for more options.)[0m
+[2m[36m(process_task pid=3792458, ip=10.120.204.18)[0m gt: <class 'dask.array.core.Array'>
+[2m[36m(process_task pid=3792458, ip=10.120.204.18)[0m gt: <class 'dask.array.core.Array'>
+[2m[36m(process_task pid=652753, ip=10.120.204.15)[0m result: <class 'dask.array.core.Array'>
+[2m[36m(process_task pid=652753, ip=10.120.204.15)[0m result_dask: <class 'dask.array.core.Array'>
+[2m[36m(process_task pid=2465663, ip=10.120.204.17)[0m gt: <class 'dask.array.core.Array'>
+[2m[36m(process_task pid=2465663, ip=10.120.204.17)[0m result: <class 'dask.array.core.Array'>
+[2m[36m(process_task pid=2465663, ip=10.120.204.17)[0m result_dask: <class 'dask.array.core.Array'>
+EST_ANALYTICS_TIME:  243.83360 (avg:20.31947)
+
+Slurm job finished at 25/02/2025_10:53:56 PM
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 10772499)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 10772499
+Cluster: finisterrae3
+User/Group: curso341/ulc
+State: COMPLETED (exit code 0)
+Nodes: 17
+Cores per node: 40
+CPU Utilized: 00:14:21
+CPU Efficiency: 0.45% of 2-04:42:00 core-walltime
+Job Wall-clock time: 00:04:39
+Memory Utilized: 1.37 GB
+Memory Efficiency: 0.05% of 2.66 TB
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ requesting less memory in other similar jobs.                         ++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+*****************************************************************************
+
+
+
+*****************************************************************************
+*****************************************************************************
+*                                                                           *
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 10772499)                   *
+*                    JOB EFFICIENCY REPORT (seff 10772499)                   *
+*                                                                           *
+*                                                                           *
+*****************************************************************************
+*****************************************************************************
+
+
+Job ID: 10772499
+Job ID: 10772499
+Cluster: finisterrae3
+Cluster: finisterrae3
+User/Group: curso341/ulc
+User/Group: curso341/ulc
+State: COMPLETED (exit code 0)
+State: COMPLETED (exit code 0)
+Nodes: 17
+Nodes: 17
+Cores per node: 40
+Cores per node: 40
+CPU Utilized: 00:14:21
+CPU Utilized: 00:14:21
+CPU Efficiency: 0.45% of 2-04:42:00 core-walltime
+CPU Efficiency: 0.45% of 2-04:42:00 core-walltime
+Job Wall-clock time: 00:04:39
+Job Wall-clock time: 00:04:39
+Memory Utilized: 1.37 GB
+Memory Utilized: 1.37 GB
+Memory Efficiency: 0.05% of 2.66 TB
+Memory Efficiency: 0.05% of 2.66 TB
+
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ requesting less memory in other similar jobs.                         ++
+ ++ requesting less memory in other similar jobs.                         ++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+ 
+*****************************************************************************
+*****************************************************************************
+
+
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 10772499)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 10772499
+Cluster: finisterrae3
+User/Group: curso341/ulc
+State: COMPLETED (exit code 0)
+Nodes: 17
+Cores per node: 40
+CPU Utilized: 00:15:42
+CPU Efficiency: 0.50% of 2-04:42:00 core-walltime
+Job Wall-clock time: 00:04:39
+Memory Utilized: 4.54 GB
+Memory Efficiency: 0.17% of 2.66 TB
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ requesting less memory in other similar jobs.                         ++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+*****************************************************************************
+
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 10772499)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 10772499
+Cluster: finisterrae3
+User/Group: curso341/ulc
+State: COMPLETED (exit code 0)
+Nodes: 17
+Cores per node: 40
+CPU Utilized: 01:05:06
+CPU Efficiency: 2.06% of 2-04:42:00 core-walltime
+Job Wall-clock time: 00:04:39
+Memory Utilized: 21.69 GB
+Memory Efficiency: 0.80% of 2.66 TB
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ requesting less memory in other similar jobs.                         ++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+*****************************************************************************
+
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 10772499)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 10772499
+Cluster: finisterrae3
+User/Group: curso341/ulc
+State: COMPLETED (exit code 0)
+Nodes: 17
+Cores per node: 40
+CPU Utilized: 01:05:06
+CPU Efficiency: 2.06% of 2-04:42:00 core-walltime
+Job Wall-clock time: 00:04:39
+Memory Utilized: 21.69 GB
+Memory Efficiency: 0.80% of 2.66 TB
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ requesting less memory in other similar jobs.                         ++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+*****************************************************************************
+
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 10772499)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 10772499
+Cluster: finisterrae3
+User/Group: curso341/ulc
+State: COMPLETED (exit code 0)
+Nodes: 17
+Cores per node: 40
+CPU Utilized: 01:05:06
+CPU Efficiency: 2.06% of 2-04:42:00 core-walltime
+Job Wall-clock time: 00:04:39
+Memory Utilized: 21.69 GB
+Memory Efficiency: 0.80% of 2.66 TB
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ requesting less memory in other similar jobs.                         ++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+*****************************************************************************
+
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 10772499)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 10772499
+Cluster: finisterrae3
+User/Group: curso341/ulc
+State: COMPLETED (exit code 0)
+Nodes: 17
+Cores per node: 40
+CPU Utilized: 01:05:06
+CPU Efficiency: 2.06% of 2-04:42:00 core-walltime
+Job Wall-clock time: 00:04:39
+Memory Utilized: 21.69 GB
+Memory Efficiency: 0.80% of 2.66 TB
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ requesting less memory in other similar jobs.                         ++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+*****************************************************************************
+
+
+
+*****************************************************************************
+*****************************************************************************
+*                                                                           *
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 10772499)                   *
+*                    JOB EFFICIENCY REPORT (seff 10772499)                   *
+*                                                                           *
+*                                                                           *
+
+*****************************************************************************
+*****************************************************************************
+*****************************************************************************
+
+
+*                                                                           *
+Job ID: 10772499
+Job ID: 10772499
+*                    JOB EFFICIENCY REPORT (seff 10772499)                   *
+Cluster: finisterrae3
+Cluster: finisterrae3
+*                                                                           *
+
+User/Group: curso341/ulc
+User/Group: curso341/ulc
+*****************************************************************************
+*****************************************************************************
+State: COMPLETED (exit code 0)
+State: COMPLETED (exit code 0)
+
+*                                                                           *
+Nodes: 17
+Nodes: 17
+Job ID: 10772499
+*                    JOB EFFICIENCY REPORT (seff 10772499)                   *
+Cores per node: 40
+Cores per node: 40
+Cluster: finisterrae3
+*                                                                           *
+CPU Utilized: 01:05:06
+CPU Utilized: 01:05:06
+User/Group: curso341/ulc
+*****************************************************************************
+CPU Efficiency: 2.06% of 2-04:42:00 core-walltime
+CPU Efficiency: 2.06% of 2-04:42:00 core-walltime
+State: COMPLETED (exit code 0)
+
+Job Wall-clock time: 00:04:39
+Job Wall-clock time: 00:04:39
+Nodes: 17
+Job ID: 10772499
+Memory Utilized: 21.69 GB
+Memory Utilized: 21.69 GB
+Cores per node: 40
+Cluster: finisterrae3
+Memory Efficiency: 0.80% of 2.66 TB
+Memory Efficiency: 0.80% of 2.66 TB
+CPU Utilized: 01:05:06
+User/Group: curso341/ulc
+
+
+CPU Efficiency: 2.06% of 2-04:42:00 core-walltime
+State: COMPLETED (exit code 0)
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Job Wall-clock time: 00:04:39
+Nodes: 17
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+Memory Utilized: 21.69 GB
+Cores per node: 40
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+Memory Efficiency: 0.80% of 2.66 TB
+CPU Utilized: 01:05:06
+ ++ requesting less memory in other similar jobs.                         ++
+ ++ requesting less memory in other similar jobs.                         ++
+
+CPU Efficiency: 2.06% of 2-04:42:00 core-walltime
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Job Wall-clock time: 00:04:39
+ 
+ 
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+Memory Utilized: 21.69 GB
+
+*****************************************************************************
+*****************************************************************************
+ ++ It seems that you do not need that much memory so we recommend        ++
+Memory Efficiency: 0.80% of 2.66 TB
+*****************************************************************************
+
+
+ ++ requesting less memory in other similar jobs.                         ++
+
+*                                                                           *
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*                    JOB EFFICIENCY REPORT (seff 10772499)                   *
+ 
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+*                                                                           *
+*****************************************************************************
+ ++ It seems that you do not need that much memory so we recommend        ++
+*****************************************************************************
+
+ ++ requesting less memory in other similar jobs.                         ++
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Job ID: 10772499
+ 
+Cluster: finisterrae3
+*****************************************************************************
+User/Group: curso341/ulc
+
+State: COMPLETED (exit code 0)
+Nodes: 17
+Cores per node: 40
+CPU Utilized: 01:05:06
+CPU Efficiency: 2.06% of 2-04:42:00 core-walltime
+Job Wall-clock time: 00:04:39
+Memory Utilized: 21.69 GB
+Memory Efficiency: 0.80% of 2.66 TB
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ requesting less memory in other similar jobs.                         ++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+*****************************************************************************
+
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 10772499)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 10772499
+Cluster: finisterrae3
+User/Group: curso341/ulc
+State: COMPLETED (exit code 0)
+Nodes: 17
+Cores per node: 40
+CPU Utilized: 01:05:06
+CPU Efficiency: 2.06% of 2-04:42:00 core-walltime
+Job Wall-clock time: 00:04:39
+Memory Utilized: 21.69 GB
+Memory Efficiency: 0.80% of 2.66 TB
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ requesting less memory in other similar jobs.                         ++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+*****************************************************************************
+
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 10772499)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 10772499
+Cluster: finisterrae3
+User/Group: curso341/ulc
+State: COMPLETED (exit code 0)
+Nodes: 17
+Cores per node: 40
+CPU Utilized: 01:05:06
+CPU Efficiency: 2.06% of 2-04:42:00 core-walltime
+Job Wall-clock time: 00:04:39
+Memory Utilized: 21.69 GB
+Memory Efficiency: 0.80% of 2.66 TB
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ requesting less memory in other similar jobs.                         ++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+*****************************************************************************
+
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 10772499)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 10772499
+Cluster: finisterrae3
+User/Group: curso341/ulc
+State: COMPLETED (exit code 0)
+Nodes: 17
+Cores per node: 40
+CPU Utilized: 01:39:46
+CPU Efficiency: 3.16% of 2-04:42:00 core-walltime
+Job Wall-clock time: 00:04:39
+Memory Utilized: 22.81 GB
+Memory Efficiency: 0.84% of 2.66 TB
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ requesting less memory in other similar jobs.                         ++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+*****************************************************************************
+
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 10772499)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 10772499
+Cluster: finisterrae3
+User/Group: curso341/ulc
+State: COMPLETED (exit code 0)
+Nodes: 17
+Cores per node: 40
+CPU Utilized: 01:39:46
+CPU Efficiency: 3.16% of 2-04:42:00 core-walltime
+Job Wall-clock time: 00:04:39
+Memory Utilized: 22.81 GB
+Memory Efficiency: 0.84% of 2.66 TB
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ requesting less memory in other similar jobs.                         ++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+*****************************************************************************
+

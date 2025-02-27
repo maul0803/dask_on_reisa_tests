@@ -6,3 +6,8 @@ __pycache__
 regs/
 times.txt
 grep.txt
+
+E3_SAVE/
+E3_TEST1/
+E3/
+test_sbatch.sh
