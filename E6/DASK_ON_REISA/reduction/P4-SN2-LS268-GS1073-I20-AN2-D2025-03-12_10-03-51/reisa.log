@@ -1,0 +1,221 @@
+slurmstepd: info: Setting TMPDIR to /scratch/10942659. Previous errors about TMPDIR can be discarded
+Slurm job started at 12/03/2025_07:36:15 PM
+
+In transit.
+Initing Ray (1 head node + 2 worker nodes + 2 simulation nodes) on nodes: 
+	ilk-245 ilk-246 ilk-247 ilk-249 ilk-252
+Head node: 172.30.211.18:6379
+
+
+RAY_DEPLOY_TIME:     23.32181
+2025-03-12 19:36:41,839	INFO packaging.py:520 -- Creating a file package for local directory '/mnt/lustre/scratch/nlsas/home/ulc/cursos/curso341/dask_on_reisa_tests/E6/DASK_ON_REISA/reduction/P4-SN2-LS268-GS1073-I20-AN2-D2025-03-12_10-03-51'.
+2025-03-12 19:36:41,867	INFO packaging.py:347 -- Pushing file package 'gcs://_ray_pkg_1b9ff9dad422f1b9.zip' (0.48MiB) to Ray cluster...
+2025-03-12 19:36:41,873	INFO packaging.py:360 -- Successfully pushed file package 'gcs://_ray_pkg_1b9ff9dad422f1b9.zip'.
+RAY_INIT_TIME:       3.21859
+Iter [0]
+Iter [2]
+[2m[36m(iter_task pid=4062844, ip=10.120.211.19)[0m /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/dask/config.py:693: UserWarning: Configuration key "shuffle" has been deprecated. Please use "dataframe.shuffle.algorithm" instead
+[2m[36m(iter_task pid=4062844, ip=10.120.211.19)[0m   warnings.warn(
+[2m[36m(iter_task pid=4062848, ip=10.120.211.19)[0m /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/dask/config.py:693: UserWarning: Configuration key "shuffle" has been deprecated. Please use "dataframe.shuffle.algorithm" instead
+[2m[36m(iter_task pid=4062848, ip=10.120.211.19)[0m   warnings.warn(
+[2m[36m(iter_task pid=4062842, ip=10.120.211.19)[0m /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/dask/config.py:693: UserWarning: Configuration key "shuffle" has been deprecated. Please use "dataframe.shuffle.algorithm" instead
+[2m[36m(iter_task pid=4062842, ip=10.120.211.19)[0m   warnings.warn(
+[2m[36m(iter_task pid=4062840, ip=10.120.211.19)[0m /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/dask/config.py:693: UserWarning: Configuration key "shuffle" has been deprecated. Please use "dataframe.shuffle.algorithm" instead
+[2m[36m(iter_task pid=4062840, ip=10.120.211.19)[0m   warnings.warn(
+[2m[36m(iter_task pid=4062841, ip=10.120.211.19)[0m /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/dask/config.py:693: UserWarning: Configuration key "shuffle" has been deprecated. Please use "dataframe.shuffle.algorithm" instead
+[2m[36m(iter_task pid=4062841, ip=10.120.211.19)[0m   warnings.warn(
+[2m[36m(iter_task pid=4062845, ip=10.120.211.19)[0m /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/dask/config.py:693: UserWarning: Configuration key "shuffle" has been deprecated. Please use "dataframe.shuffle.algorithm" instead
+[2m[36m(iter_task pid=4062845, ip=10.120.211.19)[0m   warnings.warn(
+[2m[36m(iter_task pid=4062843, ip=10.120.211.19)[0m /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/dask/config.py:693: UserWarning: Configuration key "shuffle" has been deprecated. Please use "dataframe.shuffle.algorithm" instead
+[2m[36m(iter_task pid=4062843, ip=10.120.211.19)[0m   warnings.warn(
+[2m[36m(iter_task pid=4062847, ip=10.120.211.19)[0m /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/dask/config.py:693: UserWarning: Configuration key "shuffle" has been deprecated. Please use "dataframe.shuffle.algorithm" instead
+[2m[36m(iter_task pid=4062847, ip=10.120.211.19)[0m   warnings.warn(
+[2m[36m(iter_task pid=4062839, ip=10.120.211.19)[0m /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/dask/config.py:693: UserWarning: Configuration key "shuffle" has been deprecated. Please use "dataframe.shuffle.algorithm" instead
+[2m[36m(iter_task pid=4062839, ip=10.120.211.19)[0m   warnings.warn(
+[2m[36m(iter_task pid=4062846, ip=10.120.211.19)[0m /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/dask/config.py:693: UserWarning: Configuration key "shuffle" has been deprecated. Please use "dataframe.shuffle.algorithm" instead
+[2m[36m(iter_task pid=4062846, ip=10.120.211.19)[0m   warnings.warn(
+[2m[36m(iter_task pid=4062943, ip=10.120.211.19)[0m /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/dask/config.py:693: UserWarning: Configuration key "shuffle" has been deprecated. Please use "dataframe.shuffle.algorithm" instead
+[2m[36m(iter_task pid=4062943, ip=10.120.211.19)[0m   warnings.warn(
+[2m[36m(iter_task pid=4063346, ip=10.120.211.19)[0m /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/dask/config.py:693: UserWarning: Configuration key "shuffle" has been deprecated. Please use "dataframe.shuffle.algorithm" instead
+[2m[36m(iter_task pid=4063346, ip=10.120.211.19)[0m   warnings.warn(
+[2m[36m(iter_task pid=4063110, ip=10.120.211.19)[0m /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/dask/config.py:693: UserWarning: Configuration key "shuffle" has been deprecated. Please use "dataframe.shuffle.algorithm" instead
+[2m[36m(iter_task pid=4063110, ip=10.120.211.19)[0m   warnings.warn(
+[2m[36m(iter_task pid=4063343, ip=10.120.211.19)[0m /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/dask/config.py:693: UserWarning: Configuration key "shuffle" has been deprecated. Please use "dataframe.shuffle.algorithm" instead
+[2m[36m(iter_task pid=4063343, ip=10.120.211.19)[0m   warnings.warn(
+[2m[36m(iter_task pid=4063369, ip=10.120.211.19)[0m /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/dask/config.py:693: UserWarning: Configuration key "shuffle" has been deprecated. Please use "dataframe.shuffle.algorithm" instead
+[2m[36m(iter_task pid=4063369, ip=10.120.211.19)[0m   warnings.warn(
+[2m[36m(iter_task pid=4063394, ip=10.120.211.19)[0m /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/dask/config.py:693: UserWarning: Configuration key "shuffle" has been deprecated. Please use "dataframe.shuffle.algorithm" instead
+[2m[36m(iter_task pid=4063394, ip=10.120.211.19)[0m   warnings.warn(
+[2m[36m(iter_task pid=4063337, ip=10.120.211.19)[0m /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/dask/config.py:693: UserWarning: Configuration key "shuffle" has been deprecated. Please use "dataframe.shuffle.algorithm" instead
+[2m[36m(iter_task pid=4063337, ip=10.120.211.19)[0m   warnings.warn(
+[2m[36m(iter_task pid=4063576, ip=10.120.211.19)[0m /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/dask/config.py:693: UserWarning: Configuration key "shuffle" has been deprecated. Please use "dataframe.shuffle.algorithm" instead
+[2m[36m(iter_task pid=4063576, ip=10.120.211.19)[0m   warnings.warn(
+[2m[36m(iter_task pid=4063342, ip=10.120.211.19)[0m /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/dask/config.py:693: UserWarning: Configuration key "shuffle" has been deprecated. Please use "dataframe.shuffle.algorithm" instead
+[2m[36m(iter_task pid=4063342, ip=10.120.211.19)[0m   warnings.warn(
+[2m[36m(iter_task pid=4063482, ip=10.120.211.19)[0m /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/dask/config.py:693: UserWarning: Configuration key "shuffle" has been deprecated. Please use "dataframe.shuffle.algorithm" instead
+[2m[36m(iter_task pid=4063482, ip=10.120.211.19)[0m   warnings.warn(
+Iter [4]
+Iter [6]
+Iter [8]
+Iter [10]
+Iter [12]
+Iter [14]
+Iter [16]
+Iter [18]
+GLOBAL_PUT_TIME:     6.852552652359009 (avg:0.34263)
+ACTOR_CONCURRENCY:   8
+SIMULATION_TIME:     109.486109104000008 (avg: 5.474305455200001)
+SIM_WTHOUT_PDI:      56.681682401999950 (avg: 2.834084120099997)
+PDI_DELAY:           52.804426702000058 (avg: 2.640221335100003)
+
+GLOBAL_SIZE_(GiB):   1048576
+LOCAL_SIZE_(MiB):    256
+ITERATIONS:          20
+
+MPI_PER_NODE:        2
+MPI_PARALLELISM:     4
+
+WORKER_NODES:        2
+CPUS_PER_WORKER:     64
+WORKER_PARALLELISM:  128
+
+
+SLURM_JOB_ID:        10942659
+EST_ANALYTICS_TIME:  221.07795 (avg:11.05390)
+
+Slurm job finished at 12/03/2025_07:40:26 PM
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 10942659)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 10942659
+Cluster: finisterrae3
+User/Group: curso341/ulc
+State: COMPLETED (exit code 0)
+Nodes: 5
+Cores per node: 64
+CPU Utilized: 00:07:40
+CPU Efficiency: 0.57% of 22:34:40 core-walltime
+Job Wall-clock time: 00:04:14
+Memory Utilized: 1.47 GB
+Memory Efficiency: 0.14% of 1.06 TB
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ requesting less memory in other similar jobs.                         ++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+*****************************************************************************
+
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 10942659)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 10942659
+Cluster: finisterrae3
+User/Group: curso341/ulc
+State: COMPLETED (exit code 0)
+Nodes: 5
+Cores per node: 64
+CPU Utilized: 00:12:37
+CPU Efficiency: 0.93% of 22:34:40 core-walltime
+Job Wall-clock time: 00:04:14
+Memory Utilized: 3.49 GB
+Memory Efficiency: 0.32% of 1.06 TB
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ requesting less memory in other similar jobs.                         ++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+*****************************************************************************
+
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 10942659)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 10942659
+Cluster: finisterrae3
+User/Group: curso341/ulc
+State: COMPLETED (exit code 0)
+Nodes: 5
+Cores per node: 64
+CPU Utilized: 00:55:17
+CPU Efficiency: 4.08% of 22:34:40 core-walltime
+Job Wall-clock time: 00:04:14
+Memory Utilized: 40.03 GB
+Memory Efficiency: 3.69% of 1.06 TB
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ requesting less memory in other similar jobs.                         ++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+*****************************************************************************
+
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 10942659)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 10942659
+Cluster: finisterrae3
+User/Group: curso341/ulc
+State: COMPLETED (exit code 0)
+Nodes: 5
+Cores per node: 64
+CPU Utilized: 00:55:17
+CPU Efficiency: 4.08% of 22:34:40 core-walltime
+Job Wall-clock time: 00:04:14
+Memory Utilized: 40.03 GB
+Memory Efficiency: 3.69% of 1.06 TB
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ requesting less memory in other similar jobs.                         ++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+*****************************************************************************
+
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 10942659)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 10942659
+Cluster: finisterrae3
+User/Group: curso341/ulc
+State: COMPLETED (exit code 0)
+Nodes: 5
+Cores per node: 64
+CPU Utilized: 00:55:17
+CPU Efficiency: 4.08% of 22:34:40 core-walltime
+Job Wall-clock time: 00:04:14
+Memory Utilized: 40.03 GB
+Memory Efficiency: 3.69% of 1.06 TB
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ requesting less memory in other similar jobs.                         ++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+*****************************************************************************
+

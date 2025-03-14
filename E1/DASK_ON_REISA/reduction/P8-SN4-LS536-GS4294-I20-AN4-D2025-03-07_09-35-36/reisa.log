@@ -1,0 +1,92 @@
+slurmstepd: info: Setting TMPDIR to /scratch/10899134. Previous errors about TMPDIR can be discarded
+Slurm job started at 07/03/2025_10:27:59 AM
+
+In transit.
+Initing Ray (1 head node + 4 worker nodes + 4 simulation nodes) on nodes: 
+	ilk-5 ilk-6 ilk-8 ilk-10 ilk-11 ilk-19 ilk-22 ilk-30 ilk-166
+Head node: 172.30.201.5:6379
+
+
+RAY_DEPLOY_TIME:     23.49457
+2025-03-07 10:28:26,633	INFO packaging.py:520 -- Creating a file package for local directory '/mnt/lustre/scratch/nlsas/home/ulc/cursos/curso341/dask_on_reisa_tests/E1/DASK_ON_REISA/reduction/P8-SN4-LS536-GS4294-I20-AN4-D2025-03-07_09-35-36'.
+2025-03-07 10:28:26,659	INFO packaging.py:347 -- Pushing file package 'gcs://_ray_pkg_a070c13159290553.zip' (0.48MiB) to Ray cluster...
+2025-03-07 10:28:26,665	INFO packaging.py:360 -- Successfully pushed file package 'gcs://_ray_pkg_a070c13159290553.zip'.
+RAY_INIT_TIME:       4.28787
+Iter [0]
+[2m[36m(iter_task pid=1334880, ip=10.120.201.11)[0m /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/dask/config.py:693: UserWarning: Configuration key "shuffle" has been deprecated. Please use "dataframe.shuffle.algorithm" instead
+[2m[36m(iter_task pid=1334880, ip=10.120.201.11)[0m   warnings.warn(
+[2m[36m(iter_task pid=1334883, ip=10.120.201.11)[0m /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/dask/config.py:693: UserWarning: Configuration key "shuffle" has been deprecated. Please use "dataframe.shuffle.algorithm" instead
+[2m[36m(iter_task pid=1334883, ip=10.120.201.11)[0m   warnings.warn(
+[2m[36m(iter_task pid=1334888, ip=10.120.201.11)[0m /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/dask/config.py:693: UserWarning: Configuration key "shuffle" has been deprecated. Please use "dataframe.shuffle.algorithm" instead
+[2m[36m(iter_task pid=1334888, ip=10.120.201.11)[0m   warnings.warn(
+[2m[36m(iter_task pid=1334884, ip=10.120.201.11)[0m /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/dask/config.py:693: UserWarning: Configuration key "shuffle" has been deprecated. Please use "dataframe.shuffle.algorithm" instead
+[2m[36m(iter_task pid=1334884, ip=10.120.201.11)[0m   warnings.warn(
+[2m[36m(iter_task pid=1334887, ip=10.120.201.11)[0m /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/dask/config.py:693: UserWarning: Configuration key "shuffle" has been deprecated. Please use "dataframe.shuffle.algorithm" instead
+[2m[36m(iter_task pid=1334887, ip=10.120.201.11)[0m   warnings.warn(
+[2m[36m(iter_task pid=1334885, ip=10.120.201.11)[0m /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/dask/config.py:693: UserWarning: Configuration key "shuffle" has been deprecated. Please use "dataframe.shuffle.algorithm" instead
+[2m[36m(iter_task pid=1334885, ip=10.120.201.11)[0m   warnings.warn(
+[2m[36m(iter_task pid=1334889, ip=10.120.201.11)[0m /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/dask/config.py:693: UserWarning: Configuration key "shuffle" has been deprecated. Please use "dataframe.shuffle.algorithm" instead
+[2m[36m(iter_task pid=1334889, ip=10.120.201.11)[0m   warnings.warn(
+[2m[36m(iter_task pid=1334882, ip=10.120.201.11)[0m /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/dask/config.py:693: UserWarning: Configuration key "shuffle" has been deprecated. Please use "dataframe.shuffle.algorithm" instead
+[2m[36m(iter_task pid=1334882, ip=10.120.201.11)[0m   warnings.warn(
+[2m[36m(iter_task pid=1334886, ip=10.120.201.11)[0m /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/dask/config.py:693: UserWarning: Configuration key "shuffle" has been deprecated. Please use "dataframe.shuffle.algorithm" instead
+[2m[36m(iter_task pid=1334886, ip=10.120.201.11)[0m   warnings.warn(
+[2m[36m(iter_task pid=1334881, ip=10.120.201.11)[0m /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/dask/config.py:693: UserWarning: Configuration key "shuffle" has been deprecated. Please use "dataframe.shuffle.algorithm" instead
+[2m[36m(iter_task pid=1334881, ip=10.120.201.11)[0m   warnings.warn(
+[2m[36m(iter_task pid=1335054, ip=10.120.201.11)[0m /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/dask/config.py:693: UserWarning: Configuration key "shuffle" has been deprecated. Please use "dataframe.shuffle.algorithm" instead
+[2m[36m(iter_task pid=1335054, ip=10.120.201.11)[0m   warnings.warn(
+[2m[36m(iter_task pid=1335482, ip=10.120.201.11)[0m /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/dask/config.py:693: UserWarning: Configuration key "shuffle" has been deprecated. Please use "dataframe.shuffle.algorithm" instead
+[2m[36m(iter_task pid=1335482, ip=10.120.201.11)[0m   warnings.warn(
+[2m[36m(iter_task pid=1335414, ip=10.120.201.11)[0m /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/dask/config.py:693: UserWarning: Configuration key "shuffle" has been deprecated. Please use "dataframe.shuffle.algorithm" instead
+[2m[36m(iter_task pid=1335414, ip=10.120.201.11)[0m   warnings.warn(
+[2m[36m(iter_task pid=1335413, ip=10.120.201.11)[0m /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/dask/config.py:693: UserWarning: Configuration key "shuffle" has been deprecated. Please use "dataframe.shuffle.algorithm" instead
+[2m[36m(iter_task pid=1335413, ip=10.120.201.11)[0m   warnings.warn(
+[2m[36m(iter_task pid=1335412, ip=10.120.201.11)[0m /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/dask/config.py:693: UserWarning: Configuration key "shuffle" has been deprecated. Please use "dataframe.shuffle.algorithm" instead
+[2m[36m(iter_task pid=1335412, ip=10.120.201.11)[0m   warnings.warn(
+[2m[36m(iter_task pid=1335477, ip=10.120.201.11)[0m /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/dask/config.py:693: UserWarning: Configuration key "shuffle" has been deprecated. Please use "dataframe.shuffle.algorithm" instead
+[2m[36m(iter_task pid=1335477, ip=10.120.201.11)[0m   warnings.warn(
+[2m[36m(iter_task pid=1335405, ip=10.120.201.11)[0m /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/dask/config.py:693: UserWarning: Configuration key "shuffle" has been deprecated. Please use "dataframe.shuffle.algorithm" instead
+[2m[36m(iter_task pid=1335405, ip=10.120.201.11)[0m   warnings.warn(
+[2m[36m(iter_task pid=1335111, ip=10.120.201.11)[0m /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/dask/config.py:693: UserWarning: Configuration key "shuffle" has been deprecated. Please use "dataframe.shuffle.algorithm" instead
+[2m[36m(iter_task pid=1335111, ip=10.120.201.11)[0m   warnings.warn(
+[2m[36m(iter_task pid=1335089, ip=10.120.201.11)[0m /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/dask/config.py:693: UserWarning: Configuration key "shuffle" has been deprecated. Please use "dataframe.shuffle.algorithm" instead
+[2m[36m(iter_task pid=1335089, ip=10.120.201.11)[0m   warnings.warn(
+[2m[36m(iter_task pid=1335483, ip=10.120.201.11)[0m /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/dask/config.py:693: UserWarning: Configuration key "shuffle" has been deprecated. Please use "dataframe.shuffle.algorithm" instead
+[2m[36m(iter_task pid=1335483, ip=10.120.201.11)[0m   warnings.warn(
+Iter [2]
+Iter [4]
+Iter [6]
+Iter [8]
+Iter [10]
+Iter [12]
+Iter [14]
+Iter [16]
+[2m[36m(iter_task pid=1335413, ip=10.120.201.11)[0m 2025-03-07 10:34:29,106	WARNING worker.py:2519 -- Local object store memory usage:
+[2m[36m(iter_task pid=1335413, ip=10.120.201.11)[0m 
+[2m[36m(iter_task pid=1335413, ip=10.120.201.11)[0m (global lru) capacity: 72000000000
+[2m[36m(iter_task pid=1335413, ip=10.120.201.11)[0m (global lru) used: 0%
+[2m[36m(iter_task pid=1335413, ip=10.120.201.11)[0m (global lru) num objects: 0
+[2m[36m(iter_task pid=1335413, ip=10.120.201.11)[0m (global lru) num evictions: 358
+[2m[36m(iter_task pid=1335413, ip=10.120.201.11)[0m (global lru) bytes evicted: 184196884575
+[2m[36m(iter_task pid=1335413, ip=10.120.201.11)[0m 
+The node with node id: 4971ccf755b415280d792bb5f194071895665e06fc76347bcd876e58 and address: 172.30.201.19 and node name: 172.30.201.19 has been marked dead because the detector has missed too many heartbeats from it. This can happen when a 	(1) raylet crashes unexpectedly (OOM, preempted node, etc.) 
+	(2) raylet has lagging heartbeats due to slow network or busy workload.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** JOB 10899134 ON ilk-5 CANCELLED AT 2025-03-07T10:48:02 DUE TO TIME LIMIT ***
+slurmstepd: error: *** STEP 10899134.10 ON ilk-6 CANCELLED AT 2025-03-07T10:48:02 DUE TO TIME LIMIT ***
+slurmstepd: error: *** STEP 10899134.11 ON ilk-19 CANCELLED AT 2025-03-07T10:48:02 DUE TO TIME LIMIT ***
+*** SIGTERM received at time=1741340882 on cpu 11 ***
+*** SIGTERM received at time=1741340882 on cpu 43 ***
+*** SIGTERM received at time=1741340882 on cpu 25 ***
+[failure_signal_handler.cc : 329] RAW: Signal 15 raised at PC=0x14acb4e3f1b7 while already in AbslFailureSignalHandler()
+*** SIGTERM received at time=1741340882 on cpu 11 ***
+*** SIGTERM received at time=1741340882 on cpu 10 ***
+[failure_signal_handler.cc : 329] RAW: Signal 15 raised at PC=0x14a075bf654c while already in AbslFailureSignalHandler()
+*** SIGTERM received at time=1741340882 on cpu 43 ***
+[failure_signal_handler.cc : 329] RAW: Signal 15 raised at PC=0x15543a949fc0 while already in AbslFailureSignalHandler()
+*** SIGTERM received at time=1741340882 on cpu 13 ***
+PC: @     0x14acb4e3f1b7  (unknown)  pthread_sigmask
+PC: @     0x14a075bf654c  (unknown)  __read
+    @     0x14acb4dee9c0       3952  (unknown)
+    @     0x14a075b3a9c0       3456  (unknown)

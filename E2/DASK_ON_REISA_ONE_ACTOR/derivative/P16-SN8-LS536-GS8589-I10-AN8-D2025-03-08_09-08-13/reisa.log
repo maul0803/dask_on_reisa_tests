@@ -1,0 +1,46 @@
+slurmstepd: info: Setting TMPDIR to /scratch/10912161. Previous errors about TMPDIR can be discarded
+Slurm job started at 08/03/2025_11:40:14 AM
+
+In transit.
+Initing Ray (1 head node + 8 worker nodes + 8 simulation nodes) on nodes: 
+	ilk-16 ilk-22 ilk-241 ilk-242 ilk-243 ilk-244 ilk-245 ilk-246 ilk-247 ilk-248 ilk-249 ilk-250 ilk-251 ilk-252 ilk-253 ilk-254 ilk-256
+Head node: 172.30.201.16:6379
+
+
+RAY_DEPLOY_TIME:     24.55139
+2025-03-08 11:40:42,167	INFO packaging.py:520 -- Creating a file package for local directory '/mnt/lustre/scratch/nlsas/home/ulc/cursos/curso341/dask_on_reisa_tests/E2/DASK_ON_REISA_ONE_ACTOR/derivative/P16-SN8-LS536-GS8589-I10-AN8-D2025-03-08_09-08-13'.
+2025-03-08 11:40:42,193	INFO packaging.py:347 -- Pushing file package 'gcs://_ray_pkg_2c6c7c7e4e3cec9a.zip' (0.48MiB) to Ray cluster...
+2025-03-08 11:40:42,200	INFO packaging.py:360 -- Successfully pushed file package 'gcs://_ray_pkg_2c6c7c7e4e3cec9a.zip'.
+RAY_INIT_TIME:       4.17892
+Iter [0]
+Iter [1]
+Iter [2]
+Iter [3]
+Iter [4]
+Iter [5]
+Iter [6]
+Iter [7]
+Iter [8]
+Iter [9]
+GLOBAL_PUT_TIME:     8.699684381484985 (avg:0.86997)
+ACTOR_CONCURRENCY:   8
+SIMULATION_TIME:     94.270946713000001 (avg: 9.427094671300001)
+SIM_WTHOUT_PDI:      47.633949297999997 (avg: 4.763394929800000)
+PDI_DELAY:           46.636997415000003 (avg: 4.663699741500000)
+
+GLOBAL_SIZE_(GiB):   8388608
+LOCAL_SIZE_(MiB):    512
+ITERATIONS:          10
+
+MPI_PER_NODE:        2
+MPI_PARALLELISM:     16
+
+WORKER_NODES:        8
+CPUS_PER_WORKER:     64
+WORKER_PARALLELISM:  512
+
+
+SLURM_JOB_ID:        10912161
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** JOB 10912161 ON ilk-16 CANCELLED AT 2025-03-08T12:00:22 DUE TO TIME LIMIT ***
+slurmstepd: error: *** STEP 10912161.18 ON ilk-22 CANCELLED AT 2025-03-08T12:00:22 DUE TO TIME LIMIT ***

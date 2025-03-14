@@ -1,0 +1,289 @@
+slurmstepd: info: Setting TMPDIR to /scratch/10932525. Previous errors about TMPDIR can be discarded
+Slurm job started at 10/03/2025_06:34:53 PM
+
+In transit.
+Initing Ray (1 head node + 4 worker nodes + 4 simulation nodes) on nodes: 
+	ilk-145 ilk-146 ilk-147 ilk-148 ilk-150 ilk-151 ilk-152 ilk-153 ilk-154
+Head node: 172.30.204.1:6379
+
+
+RAY_DEPLOY_TIME:     23.83177
+2025-03-10 18:35:18,932	INFO packaging.py:520 -- Creating a file package for local directory '/mnt/lustre/scratch/nlsas/home/ulc/cursos/curso341/dask_on_reisa_tests/E5/REISA/derivative/P8-SN4-LS268-GS2147-I10-AN4-D2025-03-10_18-34-40'.
+2025-03-10 18:35:19,127	INFO packaging.py:347 -- Pushing file package 'gcs://_ray_pkg_658d05ae9a7179e0.zip' (0.48MiB) to Ray cluster...
+2025-03-10 18:35:19,134	INFO packaging.py:360 -- Successfully pushed file package 'gcs://_ray_pkg_658d05ae9a7179e0.zip'.
+RAY_INIT_TIME:       2.79642
+Iter [0]
+Iter [1]
+Iter [2]
+Iter [3]
+Iter [4]
+Iter [5]
+Iter [6]
+Iter [7]
+Iter [8]
+Iter [9]
+GLOBAL_PUT_TIME:     3.9645214080810547 (avg:0.39645)
+ACTOR_CONCURRENCY:   8
+EST_ANALYTICS_TIME:  27.84321 (avg:2.78432)
+SIMULATION_TIME:     28.712198636000000 (avg: 2.871219863600000)
+SIM_WTHOUT_PDI:      23.107343780999997 (avg: 2.310734378100000)
+PDI_DELAY:           5.604854855000003 (avg: 0.560485485500000)
+
+GLOBAL_SIZE_(GiB):   2097152
+LOCAL_SIZE_(MiB):    256
+ITERATIONS:          10
+
+MPI_PER_NODE:        2
+MPI_PARALLELISM:     8
+
+WORKER_NODES:        4
+CPUS_PER_WORKER:     64
+WORKER_PARALLELISM:  256
+
+
+SLURM_JOB_ID:        10932525
+
+Slurm job finished at 10/03/2025_06:35:51 PM
+
+
+
+*****************************************************************************
+*****************************************************************************
+
+
+
+*****************************************************************************
+
+*                                                                           *
+*                                                                           *
+*****************************************************************************
+*****************************************************************************
+
+*****************************************************************************
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 10932525)                   *
+*                    JOB EFFICIENCY REPORT (seff 10932525)                   *
+*                                                                           *
+*                                                                           *
+*****************************************************************************
+*                                                                           *
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 10932525)                   *
+*                                                                           *
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 10932525)                   *
+*                    JOB EFFICIENCY REPORT (seff 10932525)                   *
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 10932525)                   *
+*                    JOB EFFICIENCY REPORT (seff 10932525)                   *
+*                                                                           *
+*****************************************************************************
+*****************************************************************************
+*                                                                           *
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 10932525)                   *
+*                                                                           *
+*                                                                           *
+*****************************************************************************
+
+
+*****************************************************************************
+*****************************************************************************
+*                                                                           *
+*****************************************************************************
+*****************************************************************************
+
+Job ID: 10932525
+Job ID: 10932525
+
+
+*****************************************************************************
+
+
+Job ID: 10932525
+Cluster: finisterrae3
+Cluster: finisterrae3
+Job ID: 10932525
+Job ID: 10932525
+
+Job ID: 10932525
+Job ID: 10932525
+Cluster: finisterrae3
+User/Group: curso341/ulc
+User/Group: curso341/ulc
+Cluster: finisterrae3
+Cluster: finisterrae3
+Job ID: 10932525
+Cluster: finisterrae3
+Cluster: finisterrae3
+User/Group: curso341/ulc
+State: COMPLETED (exit code 0)
+State: COMPLETED (exit code 0)
+User/Group: curso341/ulc
+User/Group: curso341/ulc
+Cluster: finisterrae3
+User/Group: curso341/ulc
+User/Group: curso341/ulc
+State: COMPLETED (exit code 0)
+Nodes: 9
+Nodes: 9
+State: COMPLETED (exit code 0)
+State: COMPLETED (exit code 0)
+User/Group: curso341/ulc
+State: COMPLETED (exit code 0)
+State: COMPLETED (exit code 0)
+Nodes: 9
+Cores per node: 64
+Cores per node: 64
+Nodes: 9
+
+Nodes: 9
+State: COMPLETED (exit code 0)
+Nodes: 9
+Nodes: 9
+Cores per node: 64
+CPU Utilized: 00:04:31
+CPU Utilized: 00:04:31
+Cores per node: 64
+*****************************************************************************
+Cores per node: 64
+Nodes: 9
+Cores per node: 64
+Cores per node: 64
+CPU Utilized: 00:04:31
+CPU Efficiency: 0.78% of 09:36:00 core-walltime
+CPU Efficiency: 0.78% of 09:36:00 core-walltime
+CPU Utilized: 00:06:18
+*                                                                           *
+CPU Utilized: 00:06:18
+Cores per node: 64
+CPU Utilized: 00:06:18
+CPU Utilized: 00:06:18
+CPU Efficiency: 0.78% of 09:36:00 core-walltime
+Job Wall-clock time: 00:01:00
+Job Wall-clock time: 00:01:00
+CPU Efficiency: 1.09% of 09:36:00 core-walltime
+*                    JOB EFFICIENCY REPORT (seff 10932525)                   *
+CPU Efficiency: 1.09% of 09:36:00 core-walltime
+CPU Utilized: 00:06:18
+CPU Efficiency: 1.09% of 09:36:00 core-walltime
+CPU Efficiency: 1.09% of 09:36:00 core-walltime
+Job Wall-clock time: 00:01:00
+Memory Utilized: 6.23 GB (estimated maximum)
+Memory Utilized: 6.23 GB (estimated maximum)
+Job Wall-clock time: 00:01:00
+*                                                                           *
+Job Wall-clock time: 00:01:00
+CPU Efficiency: 1.09% of 09:36:00 core-walltime
+Job Wall-clock time: 00:01:00
+Job Wall-clock time: 00:01:00
+Memory Utilized: 6.23 GB (estimated maximum)
+Memory Efficiency: 0.32% of 1.91 TB (3.39 GB/core)
+Memory Efficiency: 0.32% of 1.91 TB (3.39 GB/core)
+Memory Utilized: 6.23 GB (estimated maximum)
+*****************************************************************************
+Memory Utilized: 6.23 GB (estimated maximum)
+Job Wall-clock time: 00:01:00
+Memory Utilized: 6.23 GB (estimated maximum)
+Memory Utilized: 6.23 GB (estimated maximum)
+Memory Efficiency: 0.32% of 1.91 TB (3.39 GB/core)
+
+
+Memory Efficiency: 0.32% of 1.91 TB (3.39 GB/core)
+
+Memory Efficiency: 0.32% of 1.91 TB (3.39 GB/core)
+Memory Utilized: 6.23 GB (estimated maximum)
+Memory Efficiency: 0.32% of 1.91 TB (3.39 GB/core)
+Memory Efficiency: 0.32% of 1.91 TB (3.39 GB/core)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Job ID: 10932525
+
+Memory Efficiency: 0.32% of 1.91 TB (3.39 GB/core)
+
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Cluster: finisterrae3
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+User/Group: curso341/ulc
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ requesting less memory in other similar jobs.                         ++
+ ++ requesting less memory in other similar jobs.                         ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+State: COMPLETED (exit code 0)
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ requesting less memory in other similar jobs.                         ++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ++ requesting less memory in other similar jobs.                         ++
+Nodes: 9
+ ++ requesting less memory in other similar jobs.                         ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ requesting less memory in other similar jobs.                         ++
+ ++ requesting less memory in other similar jobs.                         ++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+ 
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Cores per node: 64
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ++ requesting less memory in other similar jobs.                         ++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+*****************************************************************************
+*****************************************************************************
+ 
+CPU Utilized: 00:10:56
+ 
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+ 
+*****************************************************************************
+
+
+*****************************************************************************
+CPU Efficiency: 1.90% of 09:36:00 core-walltime
+*****************************************************************************
+ 
+*****************************************************************************
+*****************************************************************************
+
+
+Job Wall-clock time: 00:01:00
+
+*****************************************************************************
+
+
+Memory Utilized: 7.02 GB
+
+Memory Efficiency: 0.36% of 1.91 TB
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ requesting less memory in other similar jobs.                         ++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+*****************************************************************************
+

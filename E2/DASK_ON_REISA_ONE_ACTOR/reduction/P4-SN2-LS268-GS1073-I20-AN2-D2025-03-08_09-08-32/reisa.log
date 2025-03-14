@@ -1,0 +1,48 @@
+slurmstepd: info: Setting TMPDIR to /scratch/10912168. Previous errors about TMPDIR can be discarded
+Slurm job started at 08/03/2025_01:04:07 PM
+
+In transit.
+Initing Ray (1 head node + 2 worker nodes + 2 simulation nodes) on nodes: 
+	ilk-80 ilk-161 ilk-163 ilk-164 ilk-167
+Head node: 172.30.202.32:6379
+
+
+RAY_DEPLOY_TIME:     24.01575
+RAY_INIT_TIME:       3.51191
+Iter [0]
+2025-03-08 13:04:36,452	INFO packaging.py:520 -- Creating a file package for local directory '/mnt/lustre/scratch/nlsas/home/ulc/cursos/curso341/dask_on_reisa_tests/E2/DASK_ON_REISA_ONE_ACTOR/reduction/P4-SN2-LS268-GS1073-I20-AN2-D2025-03-08_09-08-32'.
+2025-03-08 13:04:36,478	INFO packaging.py:347 -- Pushing file package 'gcs://_ray_pkg_0f8b87df5b3f5641.zip' (0.48MiB) to Ray cluster...
+2025-03-08 13:04:36,484	INFO packaging.py:360 -- Successfully pushed file package 'gcs://_ray_pkg_0f8b87df5b3f5641.zip'.
+Iter [2]
+Iter [4]
+Iter [6]
+Iter [8]
+Iter [10]
+Iter [12]
+Iter [14]
+Iter [16]
+Iter [18]
+GLOBAL_PUT_TIME:     7.210574388504028 (avg:0.36053)
+ACTOR_CONCURRENCY:   8
+SIMULATION_TIME:     115.870116685999989 (avg: 5.793505834299999)
+SIM_WTHOUT_PDI:      52.870661145999996 (avg: 2.643533057300000)
+PDI_DELAY:           62.999455539999992 (avg: 3.149972776999999)
+
+GLOBAL_SIZE_(GiB):   1048576
+LOCAL_SIZE_(MiB):    256
+ITERATIONS:          20
+
+MPI_PER_NODE:        2
+MPI_PARALLELISM:     4
+
+WORKER_NODES:        2
+CPUS_PER_WORKER:     64
+WORKER_PARALLELISM:  128
+
+
+SLURM_JOB_ID:        10912168
+The node with node id: 677241ae089c00bad2dfe0cfa85645fa94d42722461d691c0366e0d5 and address: 172.30.204.20 and node name: 172.30.204.20 has been marked dead because the detector has missed too many heartbeats from it. This can happen when a 	(1) raylet crashes unexpectedly (OOM, preempted node, etc.) 
+	(2) raylet has lagging heartbeats due to slow network or busy workload.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** JOB 10912168 ON ilk-80 CANCELLED AT 2025-03-08T13:24:33 DUE TO TIME LIMIT ***
+slurmstepd: error: *** STEP 10912168.6 ON ilk-161 CANCELLED AT 2025-03-08T13:24:33 DUE TO TIME LIMIT ***

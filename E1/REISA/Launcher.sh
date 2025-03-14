@@ -1,10 +1,37 @@
 #!/bin/bash
 
-PDI_PREFIX=${HOME}/opt/pdi_py39
+# Check if cluster_config.yml exists
+CLUSTER_CONFIG_PATH="../../cluster_config.yml"
+if [ ! -f $CLUSTER_CONFIG_PATH ]; then
+  echo "Error: cluster_config.yml file not found!" >&2
+  exit 1
+fi
+
+# Extract values from cluster_config.yml
+PDI_PREFIX=$(grep "pdi_prefix" $CLUSTER_CONFIG_PATH | awk -F': ' '{print $2}' | tr -d ' ')
+PARTITION=$(grep "partition" $CLUSTER_CONFIG_PATH | awk -F': ' '{print $2}' | tr -d ' ')
+CORES_PER_NODE=$(grep "cores_per_node" $CLUSTER_CONFIG_PATH | awk -F': ' '{print $2}' | tr -d ' ')
+RAM_RAW=$(grep "ram_per_node" $CLUSTER_CONFIG_PATH | awk -F': ' '{print $2}' | tr -d ' ')
+
+# Validate extracted values
+if [ -z "$PDI_PREFIX" ] || [ -z "$PARTITION" ] || [ -z "$CORES_PER_NODE" ] || [ -z "$RAM_RAW" ]; then
+  echo "Error: Failed to retrieve values from cluster_config.yml!" >&2
+  exit 1
+fi
+
+# Export PDI path
 export PATH=${PDI_PREFIX}/bin:${PATH}
 
-#PARTITION=cpu_short    # Ruche
-PARTITION=short         # FT3
+# Convert RAM_PER_NODE to MB based on its unit
+if [[ "$RAM_RAW" == *G ]]; then
+  RAM_PER_NODE=$(echo "$RAM_RAW" | tr -d 'G')  # Remove 'G'
+  RAM_PER_NODE=$((RAM_PER_NODE * 1000))  # Convert to MB
+elif [[ "$RAM_RAW" == *M ]]; then
+  RAM_PER_NODE=$(echo "$RAM_RAW" | tr -d 'M')  # Already in MB
+else
+  echo "Error: Unknown memory unit in cluster_config.yml (expected G or M)" >&2
+  exit 1
+fi
 
 MAIN_DIR=$PWD
 
@@ -22,7 +49,15 @@ GENERATION=$6 # Number of iterations on the simulation
 
 # ANALYTICS HARDWARE
 WORKER_NODES=$7 # DEISA uses (MPI_PROCESSES/4) worker nodes  with 48 threads each one
-CPUS_PER_WORKER=$8 # 24 # Parallelism on each worker
+
+# Compute memory per CPU (90% of total memory)
+MEM_PER_CPU=$(echo "scale=0; ($RAM_PER_NODE * 0.9 / $CORES_PER_NODE)" | bc)
+
+# Validate computed memory per CPU
+if [ "$MEM_PER_CPU" -le 0 ]; then
+  echo "Error: Invalid memory per CPU calculation!" >&2
+  exit 1
+fi
 
 # AUXILIAR VALUES
 SIMUNODES=$(($PARALLELISM2 * $PARALLELISM1 / $MPI_PER_NODE)) # NUMBER OF SIMULATION NODES
@@ -42,10 +77,10 @@ cd $OUTPUT
 # COMPILING
 (CC=gcc CXX=g++ pdirun cmake .) > /dev/null 2>&1
 pdirun make -B simulation > /dev/null 2>&1
-`which python` prescript.py $DATASIZE1 $DATASIZE2 $PARALLELISM1 $PARALLELISM2 $GENERATION $WORKER_NODES $MPI_PER_NODE $CPUS_PER_WORKER $WORKER_THREADING # Create config.yml
+`which python` prescript.py $DATASIZE1 $DATASIZE2 $PARALLELISM1 $PARALLELISM2 $GENERATION $WORKER_NODES $MPI_PER_NODE $CORES_PER_NODE $WORKER_THREADING $SIMUNODES # Create config.yml
 
 echo -e "$0 $1 $2 $3 $4 $5 $6 $7 $8 $9 ${10}" > rerun.sh
 
 # RUNNING
-echo -e "Executing $(sbatch --parsable -N $NNODES --mincpus=40 --partition $PARTITION --ntasks=$NPROC Script.sh $SIMUNODES $MPI_PER_NODE $CPUS_PER_WORKER $9 ${10}) in $MAIN_DIR/$OUTPUT/" >> ../../../../jobs.log
+echo -e "Executing $(sbatch --parsable --nodes=$NNODES --mincpus=${CORES_PER_NODE} --mem-per-cpu=${MEM_PER_CPU}M --partition ${PARTITION} --ntasks=$NPROC Script.sh $SIMUNODES $MPI_PER_NODE $CORES_PER_NODE $9 ${10}) in $PWD    " >> ../../../../jobs.log
 cd $MAIN_DIR

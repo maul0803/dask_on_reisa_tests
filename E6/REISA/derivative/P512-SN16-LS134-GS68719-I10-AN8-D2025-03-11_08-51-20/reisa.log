@@ -1,0 +1,47 @@
+slurmstepd: info: Setting TMPDIR to /scratch/10935935. Previous errors about TMPDIR can be discarded
+Slurm job started at 11/03/2025_09:04:04 AM
+
+In transit.
+Initing Ray (1 head node + 8 worker nodes + 16 simulation nodes) on nodes: 
+	ilk-154 ilk-155 ilk-156 ilk-158 ilk-195 ilk-196 ilk-206 ilk-211 ilk-214 ilk-216 ilk-217 ilk-220 ilk-221 ilk-222 ilk-223 ilk-225 ilk-228 ilk-229 ilk-230 ilk-233 ilk-235 ilk-236 ilk-237 ilk-238 ilk-239
+Head node: 172.30.204.10:6379
+
+
+RAY_DEPLOY_TIME:     23.29638
+2025-03-11 09:04:30,325	INFO packaging.py:520 -- Creating a file package for local directory '/mnt/lustre/scratch/nlsas/home/ulc/cursos/curso341/dask_on_reisa_tests/E6/REISA/derivative/P512-SN16-LS134-GS68719-I10-AN8-D2025-03-11_08-51-20'.
+2025-03-11 09:04:30,352	INFO packaging.py:347 -- Pushing file package 'gcs://_ray_pkg_1a8eb14341c3bb34.zip' (0.48MiB) to Ray cluster...
+2025-03-11 09:04:30,358	INFO packaging.py:360 -- Successfully pushed file package 'gcs://_ray_pkg_1a8eb14341c3bb34.zip'.
+RAY_INIT_TIME:       4.88753
+Iter [0]
+Iter [1]
+Iter [2]
+Iter [3]
+Iter [4]
+Iter [5]
+Iter [6]
+Iter [7]
+Iter [8]
+Iter [9]
+GLOBAL_PUT_TIME:     7.416731595993042 (avg:0.74167)
+ACTOR_CONCURRENCY:   8
+SIMULATION_TIME:     35.183964149999994 (avg: 3.518396414999999)
+SIM_WTHOUT_PDI:      22.005256691000000 (avg: 2.200525669100000)
+PDI_DELAY:           13.178707458999995 (avg: 1.317870745899999)
+
+GLOBAL_SIZE_(GiB):   67108864
+LOCAL_SIZE_(MiB):    128
+ITERATIONS:          10
+
+MPI_PER_NODE:        32
+MPI_PARALLELISM:     512
+
+WORKER_NODES:        8
+CPUS_PER_WORKER:     64
+WORKER_PARALLELISM:  512
+
+
+SLURM_JOB_ID:        10935935
+[2m[36m(pid=gcs_server)[0m E0311 09:06:19.441506724 4090261 tcp_server_posix.cc:216]    Failed accept4: Too many open files
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** JOB 10935935 ON ilk-154 CANCELLED AT 2025-03-11T09:24:04 DUE TO TIME LIMIT ***
+slurmstepd: error: *** STEP 10935935.26 ON ilk-155 CANCELLED AT 2025-03-11T09:24:04 DUE TO TIME LIMIT ***

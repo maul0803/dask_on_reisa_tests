@@ -1,0 +1,1591 @@
+slurmstepd: info: Setting TMPDIR to /scratch/10942670. Previous errors about TMPDIR can be discarded
+Slurm job started at 12/03/2025_05:55:25 PM
+
+In situ 2,
+Initing Ray (1 head node + 2 worker nodes + 4 simulation nodes) on nodes: 
+	ilk-155 ilk-156 ilk-157 ilk-158 ilk-159 ilk-160 ilk-183
+Head node: 172.30.204.11:6379
+
+
+RAY_DEPLOY_TIME:     24.68510
+2025-03-12 17:55:53,537	INFO packaging.py:520 -- Creating a file package for local directory '/mnt/lustre/scratch/nlsas/home/ulc/cursos/curso341/dask_on_reisa_tests/E6/DASK_ON_REISA/reduction/P128-SN4-LS134-GS17179-I20-AN2-D2025-03-12_10-04-12'.
+2025-03-12 17:55:53,564	INFO packaging.py:347 -- Pushing file package 'gcs://_ray_pkg_6e9918f98ef192e8.zip' (0.48MiB) to Ray cluster...
+2025-03-12 17:55:53,571	INFO packaging.py:360 -- Successfully pushed file package 'gcs://_ray_pkg_6e9918f98ef192e8.zip'.
+RAY_INIT_TIME:       5.40802
+Iter [0]
+[2m[36m(iter_task pid=739054, ip=10.120.204.12)[0m /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/dask/config.py:693: UserWarning: Configuration key "shuffle" has been deprecated. Please use "dataframe.shuffle.algorithm" instead
+[2m[36m(iter_task pid=739054, ip=10.120.204.12)[0m   warnings.warn(
+[2m[36m(iter_task pid=739053, ip=10.120.204.12)[0m /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/dask/config.py:693: UserWarning: Configuration key "shuffle" has been deprecated. Please use "dataframe.shuffle.algorithm" instead
+[2m[36m(iter_task pid=739053, ip=10.120.204.12)[0m   warnings.warn(
+[2m[36m(iter_task pid=739052, ip=10.120.204.12)[0m /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/dask/config.py:693: UserWarning: Configuration key "shuffle" has been deprecated. Please use "dataframe.shuffle.algorithm" instead
+[2m[36m(iter_task pid=739052, ip=10.120.204.12)[0m   warnings.warn(
+[2m[36m(iter_task pid=739055, ip=10.120.204.12)[0m /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/dask/config.py:693: UserWarning: Configuration key "shuffle" has been deprecated. Please use "dataframe.shuffle.algorithm" instead
+[2m[36m(iter_task pid=739055, ip=10.120.204.12)[0m   warnings.warn(
+[2m[36m(iter_task pid=1007969, ip=10.120.204.13)[0m /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/dask/config.py:693: UserWarning: Configuration key "shuffle" has been deprecated. Please use "dataframe.shuffle.algorithm" instead
+[2m[36m(iter_task pid=1007969, ip=10.120.204.13)[0m   warnings.warn(
+[2m[36m(iter_task pid=1007967, ip=10.120.204.13)[0m /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/dask/config.py:693: UserWarning: Configuration key "shuffle" has been deprecated. Please use "dataframe.shuffle.algorithm" instead
+[2m[36m(iter_task pid=1007967, ip=10.120.204.13)[0m   warnings.warn(
+[2m[36m(iter_task pid=1007968, ip=10.120.204.13)[0m /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/dask/config.py:693: UserWarning: Configuration key "shuffle" has been deprecated. Please use "dataframe.shuffle.algorithm" instead
+[2m[36m(iter_task pid=1007968, ip=10.120.204.13)[0m   warnings.warn(
+[2m[36m(iter_task pid=1007966, ip=10.120.204.13)[0m /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/dask/config.py:693: UserWarning: Configuration key "shuffle" has been deprecated. Please use "dataframe.shuffle.algorithm" instead
+[2m[36m(iter_task pid=1007966, ip=10.120.204.13)[0m   warnings.warn(
+Iter [2]
+Iter [4]
+Iter [6]
+[2m[36m(iter_task pid=739054, ip=10.120.204.12)[0m /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/dask/config.py:693: UserWarning: Configuration key "shuffle" has been deprecated. Please use "dataframe.shuffle.algorithm" instead
+[2m[36m(iter_task pid=739054, ip=10.120.204.12)[0m   warnings.warn(
+[2m[36m(iter_task pid=739053, ip=10.120.204.12)[0m /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/dask/config.py:693: UserWarning: Configuration key "shuffle" has been deprecated. Please use "dataframe.shuffle.algorithm" instead
+[2m[36m(iter_task pid=739053, ip=10.120.204.12)[0m   warnings.warn(
+[2m[36m(iter_task pid=739052, ip=10.120.204.12)[0m /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/dask/config.py:693: UserWarning: Configuration key "shuffle" has been deprecated. Please use "dataframe.shuffle.algorithm" instead
+[2m[36m(iter_task pid=739052, ip=10.120.204.12)[0m   warnings.warn(
+Iter [8]
+Iter [10]
+Iter [12]
+WARNING: 14 PYTHON worker processes have been started on node: e47f9b6ec1ad12f089e0f7437e8afe11a3ccbf8d9338153b621a0b21 with address: 172.30.204.39. This could be a result of using a large number of actors, or due to tasks blocked in ray.get() calls (see https://github.com/ray-project/ray/issues/3644 for some discussion of workarounds).
+WARNING: 14 PYTHON worker processes have been started on node: e9cfd3173c3b1a8c7620113bf39cd4a18457d8bdae49d6324b986ab9 with address: 172.30.204.16. This could be a result of using a large number of actors, or due to tasks blocked in ray.get() calls (see https://github.com/ray-project/ray/issues/3644 for some discussion of workarounds).
+[2m[36m(iter_task pid=739055, ip=10.120.204.12)[0m /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/dask/config.py:693: UserWarning: Configuration key "shuffle" has been deprecated. Please use "dataframe.shuffle.algorithm" instead
+[2m[36m(iter_task pid=739055, ip=10.120.204.12)[0m   warnings.warn(
+[2m[36m(iter_task pid=1007969, ip=10.120.204.13)[0m /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/dask/config.py:693: UserWarning: Configuration key "shuffle" has been deprecated. Please use "dataframe.shuffle.algorithm" instead
+[2m[36m(iter_task pid=1007969, ip=10.120.204.13)[0m   warnings.warn(
+[2m[36m(iter_task pid=1012662, ip=10.120.204.13)[0m /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/dask/config.py:693: UserWarning: Configuration key "shuffle" has been deprecated. Please use "dataframe.shuffle.algorithm" instead
+[2m[36m(iter_task pid=1012662, ip=10.120.204.13)[0m   warnings.warn(
+Iter [14]
+Iter [16]
+Iter [18]
+GLOBAL_PUT_TIME:     9.370341539382935 (avg:0.46852)
+ACTOR_CONCURRENCY:   8
+SIMULATION_TIME:     663.297806556000069 (avg: 33.164890327800002)
+SIM_WTHOUT_PDI:      176.288936040999999 (avg: 8.814446802050000)
+PDI_DELAY:           487.008870515000069 (avg: 24.350443525750002)
+
+GLOBAL_SIZE_(GiB):   16777216
+LOCAL_SIZE_(MiB):    128
+ITERATIONS:          20
+
+MPI_PER_NODE:        32
+MPI_PARALLELISM:     128
+
+WORKER_NODES:        2
+CPUS_PER_WORKER:     64
+WORKER_PARALLELISM:  128
+
+
+SLURM_JOB_ID:        10942670
+WARNING: 12 PYTHON worker processes have been started on node: 198e1d5d606f480a4731694112c53c73a2bc3cd99c8e5414318b8cdd with address: 172.30.204.15. This could be a result of using a large number of actors, or due to tasks blocked in ray.get() calls (see https://github.com/ray-project/ray/issues/3644 for some discussion of workarounds).
+WARNING: 12 PYTHON worker processes have been started on node: 43b072f9077a9588d02c399c241917f3c2c9397396c5404c65db0ca2 with address: 172.30.204.14. This could be a result of using a large number of actors, or due to tasks blocked in ray.get() calls (see https://github.com/ray-project/ray/issues/3644 for some discussion of workarounds).
+[2m[33m(raylet, ip=10.120.204.15)[0m [2025-03-12 18:11:28,781 E 3503412 3503570] (raylet) file_system_monitor.cc:111: /scratch/10942670/ray/session_2025-03-12_17-55-28_045275_1281358 is over 99.9% full, available space: 538742784; capacity: 837278007296. Object creation will fail if spilling is required.
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+[2m[33m(raylet, ip=10.120.204.15)[0m [2025-03-12 18:11:29,157 E 3542807 3542807] logging.cc:97: Unhandled exception: N6spdlog9spdlog_exE. what(): Failed opening file /scratch/10942670/ray/session_2025-03-12_17-55-28_045275_1281358/logs/events/event_CORE_WORKER_3542807.log for writing: No space left on device
+[2m[33m(raylet, ip=10.120.204.15)[0m [*** LOG ERROR #0001 ***] [2025-03-12 18:11:29] [ray_log_sink] {Failed writing to file /scratch/10942670/ray/session_2025-03-12_17-55-28_045275_1281358/logs/python-core-worker-e41ed5c52b149cddeea63dc51a743c9d4466fba17f1441d69fbae843_3542807.log: No space left on device}
+[2m[33m(raylet, ip=10.120.204.15)[0m [2025-03-12 18:11:29,181 E 3542807 3542807] logging.cc:104: Stack trace: 
+[2m[33m(raylet, ip=10.120.204.15)[0m  /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_raylet.so(+0xd6f36a) [0x146e5429236a] ray::operator<<()
+[2m[33m(raylet, ip=10.120.204.15)[0m /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_raylet.so(+0xd71b28) [0x146e54294b28] ray::TerminateHandler()
+[2m[33m(raylet, ip=10.120.204.15)[0m /mnt/netapp1/Optcesga_FT2_RHEL7/2022/gentoo/31032022/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/libstdc++.so.6(+0xa8a76) [0x146e533b3a76]
+[2m[33m(raylet, ip=10.120.204.15)[0m /mnt/netapp1/Optcesga_FT2_RHEL7/2022/gentoo/31032022/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/libstdc++.so.6(+0xa8ae1) [0x146e533b3ae1]
+[2m[33m(raylet, ip=10.120.204.15)[0m /mnt/netapp1/Optcesga_FT2_RHEL7/2022/gentoo/31032022/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/libstdc++.so.6(+0xa8d64) [0x146e533b3d64]
+[2m[33m(raylet, ip=10.120.204.15)[0m /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_raylet.so(+0x48c770) [0x146e539af770] spdlog::throw_spdlog_ex()
+[2m[33m(raylet, ip=10.120.204.15)[0m /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_raylet.so(+0xd63841) [0x146e54286841] spdlog::details::file_helper::open()
+[2m[33m(raylet, ip=10.120.204.15)[0m /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_raylet.so(+0xd69344) [0x146e5428c344] spdlog::synchronous_factory::create<>()
+[2m[33m(raylet, ip=10.120.204.15)[0m /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_raylet.so(_ZN3ray16LogEventReporterC1ENS_3rpc16Event_SourceTypeERKSsbii+0x5cd) [0x146e5428d11d] ray::LogEventReporter::LogEventReporter()
+[2m[33m(raylet, ip=10.120.204.15)[0m /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_raylet.so(+0xd6aecf) [0x146e5428decf] absl::lts_20220623::base_internal::CallOnceImpl<>()
+[2m[33m(raylet, ip=10.120.204.15)[0m /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_raylet.so(_ZN3ray12RayEventInitENS_3rpc16Event_SourceTypeERKN4absl12lts_2022062313flat_hash_mapISsSsNS3_18container_internal10StringHashENS5_8StringEqESaISt4pairIKSsSsEEEERS9_SF_b+0x41) [0x146e5428e1f1] ray::RayEventInit()
+[2m[33m(raylet, ip=10.120.204.15)[0m /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_raylet.so(_ZN3ray4core21CoreWorkerProcessImplC2ERKNS0_17CoreWorkerOptionsE+0x1294) [0x146e53b9f554] ray::core::CoreWorkerProcessImpl::CoreWorkerProcessImpl()
+[2m[33m(raylet, ip=10.120.204.15)[0m /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_raylet.so(_ZN3ray4core17CoreWorkerProcess10InitializeERKNS0_17CoreWorkerOptionsE+0xcf) [0x146e53b9f89f] ray::core::CoreWorkerProcess::Initialize()
+[2m[33m(raylet, ip=10.120.204.15)[0m /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_raylet.so(+0x533184) [0x146e53a56184] __pyx_pw_3ray_7_raylet_10CoreWorker_1__cinit__()
+[2m[33m(raylet, ip=10.120.204.15)[0m /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_raylet.so(+0x5341f3) [0x146e53a571f3] __pyx_tp_new_3ray_7_raylet_CoreWorker()
+[2m[33m(raylet, ip=10.120.204.15)[0m /mnt/netapp1/Optcesga_FT2_RHEL7/2022/gentoo/31032022/usr/lib64/libpython3.9.so.1.0(+0x101dd6) [0x146e5559fdd6]
+[2m[33m(raylet, ip=10.120.204.15)[0m /mnt/netapp1/Optcesga_FT2_RHEL7/2022/gentoo/31032022/usr/lib64/libpython3.9.so.1.0(_PyObject_MakeTpCall+0x9a) [0x146e5554c0ea] _PyObject_MakeTpCall
+[2m[33m(raylet, ip=10.120.204.15)[0m /mnt/netapp1/Optcesga_FT2_RHEL7/2022/gentoo/31032022/usr/lib64/libpython3.9.so.1.0(_PyEval_EvalFrameDefault+0x909a) [0x146e5550e9fa] _PyEval_EvalFrameDefault
+[2m[33m(raylet, ip=10.120.204.15)[0m /mnt/netapp1/Optcesga_FT2_RHEL7/2022/gentoo/31032022/usr/lib64/libpython3.9.so.1.0(+0x17ba16) [0x146e55619a16]
+[2m[33m(raylet, ip=10.120.204.15)[0m /mnt/netapp1/Optcesga_FT2_RHEL7/2022/gentoo/31032022/usr/lib64/libpython3.9.so.1.0(_PyFunction_Vectorcall+0xa1) [0x146e5554be61] _PyFunction_Vectorcall
+[2m[33m(raylet, ip=10.120.204.15)[0m /mnt/netapp1/Optcesga_FT2_RHEL7/2022/gentoo/31032022/usr/lib64/libpython3.9.so
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+[2m[33m(raylet, ip=10.120.204.16)[0m [2025-03-12 18:11:39,706 E 323930 324093] (raylet) file_system_monitor.cc:111: /scratch/10942670/ray/session_2025-03-12_17-55-28_045275_1281358 is over 99.9% full, available space: 667512832; capacity: 837278007296. Object creation will fail if spilling is required.
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+[2m[33m(raylet, ip=10.120.204.16)[0m [2025-03-12 18:11:49,708 E 323930 324093] (raylet) file_system_monitor.cc:111: /scratch/10942670/ray/session_2025-03-12_17-55-28_045275_1281358 is over 99.9% full, available space: 0; capacity: 837278007296. Object creation will fail if spilling is required.
+[2m[33m(raylet, ip=10.120.204.16)[0m terminate called after throwing an instance of 'spdlog::spdlog_ex'
+[2m[33m(raylet, ip=10.120.204.16)[0m   what():  Failed opening file /scratch/10942670/ray/session_2025-03-12_17-55-28_045275_1281358/logs/python-core-worker-d717a2c85f46c988d056f02b44406ab65616f5635faa89b7e146719e_365300.log for writing: No space left on device
+[2m[33m(raylet, ip=10.120.204.16)[0m Fatal Python error: Aborted
+[2m[33m(raylet, ip=10.120.204.16)[0m 
+[2m[33m(raylet, ip=10.120.204.16)[0m Stack (most recent call first):
+[2m[33m(raylet, ip=10.120.204.16)[0m   File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/worker.py", line 2189 in connect
+[2m[33m(raylet, ip=10.120.204.16)[0m   File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/workers/default_worker.py", line 234 in <module>
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+[2m[33m(raylet, ip=10.120.204.39)[0m [2025-03-12 18:11:51,770 E 3065478 3065636] (raylet) file_system_monitor.cc:111: /scratch/10942670/ray/session_2025-03-12_17-55-28_045275_1281358 is over 99.9% full, available space: 734040064; capacity: 837278007296. Object creation will fail if spilling is required.
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+[2m[33m(raylet, ip=10.120.204.16)[0m Traceback (most recent call last):
+[2m[33m(raylet, ip=10.120.204.16)[0m   File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/workers/default_worker.py", line 246, in <module>
+[2m[33m(raylet, ip=10.120.204.16)[0m     out_file, err_file = node.get_log_file_handles(
+[2m[33m(raylet, ip=10.120.204.16)[0m   File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/node.py", line 726, in get_log_file_handles
+[2m[33m(raylet, ip=10.120.204.16)[0m     log_stderr = open_log(self._get_log_file_name(name, "err", unique=unique))
+[2m[33m(raylet, ip=10.120.204.16)[0m   File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/utils.py", line 465, in open_log
+[2m[33m(raylet, ip=10.120.204.16)[0m     stream = open(path, **kwargs)
+[2m[33m(raylet, ip=10.120.204.16)[0m OSError: [Errno 28] No space left on device: '/scratch/10942670/ray/session_2025-03-12_17-55-28_045275_1281358/logs/worker-f4770a1308a4cbe756de2afab61981406d23eca4784f6a30342c1240-2b000000-365581.err'
+[2m[33m(raylet, ip=10.120.204.16)[0m [2025-03-12 18:11:57,097 E 365581 365581] logging.cc:104: Stack trace: 
+[2m[33m(raylet, ip=10.120.204.16)[0m  /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_raylet.so(+0xd6f36a) [0x14615064736a] ray::operator<<()
+[2m[33m(raylet, ip=10.120.204.16)[0m /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_raylet.so(+0xd71b28) [0x146150649b28] ray::TerminateHandler()
+[2m[33m(raylet, ip=10.120.204.16)[0m /mnt/netapp1/Optcesga_FT2_RHEL7/2022/gentoo/31032022/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/libstdc++.so.6(+0xa8a76) [0x14614f768a76]
+[2m[33m(raylet, ip=10.120.204.16)[0m /mnt/netapp1/Optcesga_FT2_RHEL7/2022/gentoo/31032022/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/libstdc++.so.6(+0xa8ae1) [0x14614f768ae1]
+[2m[33m(raylet, ip=10.120.204.16)[0m /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_raylet.so(+0x6c24b9) [0x14614ff9a4b9]
+[2m[33m(raylet, ip=10.120.204.16)[0m /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_raylet.so(_ZN3ray4core6worker19TaskEventBufferImplD0Ev+0x12) [0x14614ff9a4d2] ray::core::worker::TaskEventBufferImpl::~TaskEventBufferImpl()
+[2m[33m(raylet, ip=10.120.204.16)[0m /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_raylet.so(_ZN3ray4core10CoreWorkerD1Ev+0x50) [0x14614ff17c80] ray::core::CoreWorker::~CoreWorker()
+[2m[33m(raylet, ip=10.120.204.16)[0m /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_raylet.so(+0x53ea6a) [0x14614fe16a6a] std::_Sp_counted_base<>::_M_release()
+[2m[33m(raylet, ip=10.120.204.16)[0m /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_raylet.so(_ZN3ray4core21CoreWorkerProcessImplD1Ev+0x101) [0x14614ff51f41] ray::core::CoreWorkerProcessImpl::~CoreWorkerProcessImpl()
+[2m[33m(raylet, ip=10.120.204.16)[0m /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_raylet.so(_ZN3ray4core17CoreWorkerProcess12HandleAtExitEv+0x29) [0x14614ff52119] ray::core::CoreWorkerProcess::HandleAtExit()
+[2m[33m(raylet, ip=10.120.204.16)[0m /mnt/netapp1/Optcesga_FT2_RHEL7/2022/gentoo/31032022/lib64/libc.so.6(+0x40008) [0x14615169f008]
+[2m[33m(raylet, ip=10.120.204.16)[0m /mnt/netapp1/Optcesga_FT2_RHEL7/2022/gentoo/31032022/lib64/libc.so.6(+0x4010a) [0x14615169f10a]
+[2m[33m(raylet, ip=10.120.204.16)[0m /mnt/netapp1/Optcesga_FT2_RHEL7/2022/gentoo/31032022/lib64/libc.so.6(+0x29351) [0x146151688351]
+[2m[33m(raylet, ip=10.120.204.16)[0m /mnt/netapp1/Optcesga_FT2_RHEL7/2022/gentoo/31032022/lib64/libc.so.6(__libc_start_main+0x7c) [0x1461516883fc] __libc_start_main
+[2m[33m(raylet, ip=10.120.204.16)[0m ray::IDLE(_start+0x21) [0x561ee628a081] _start
+[2m[33m(raylet, ip=10.120.204.16)[0m 
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+[2m[33m(raylet, ip=10.120.204.16)[0m Traceback (most recent call last):
+[2m[33m(raylet, ip=10.120.204.16)[0m   File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/workers/default_
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+[2m[33m(raylet, ip=10.120.204.39)[0m Traceback (most recent call last):
+[2m[33m(raylet, ip=10.120.204.39)[0m   File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/workers/default_worker.py", line 246, in <module>
+[2m[33m(raylet, ip=10.120.204.39)[0m     out_file, err_file = node.get_log_file_handles(
+[2m[33m(raylet, ip=10.120.204.39)[0m   File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/node.py", line 724, in get_log_file_handles
+[2m[33m(raylet, ip=10.120.204.39)[0m     log_stdout = open_log(self._get_log_file_name(name, "out", unique=unique))
+[2m[33m(raylet, ip=10.120.204.39)[0m   File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/utils.py", line 465, in open_log
+[2m[33m(raylet, ip=10.120.204.39)[0m     stream = open(path, **kwargs)
+[2m[33m(raylet, ip=10.120.204.39)[0m OSError: [Errno 28] No space left on device: '/scratch/10942670/ray/session_2025-03-12_17-55-28_045275_1281358/logs/worker-6cfe989813b7c3c01153a944a0579868b4b48cccdf7bf00bf16c2ccb-72000000-3107699.out'
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+[2m[33m(raylet, ip=10.120.204.39)[0m [2025-03-12 18:12:01,775 E 3065478 3065636] (raylet) file_system_monitor.cc:111: /scratch/10942670/ray/session_2025-03-12_17-55-28_045275_1281358 is over 99.9% full, available space: 0; capacity: 837278007296. Object creation will fail if spilling is required.
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+[2m[33m(raylet, ip=10.120.204.39)[0m Traceback (most recent call last):
+[2m[33m(raylet, ip=10.120.204.39)[0m   File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/workers/default_worker.py", line 246, in <module>
+[2m[33m(raylet, ip=10.120.204.39)[0m     out_file, err_file = node.get_log_file_handles(
+[2m[33m(raylet, ip=10.120.204.39)[0m   File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/node.py", line 726, in get_log_file_handles
+[2m[33m(raylet, ip=10.120.204.39)[0m     log_stderr = open_log(self._get_log_file_name(name, "err", unique=unique))
+[2m[33m(raylet, ip=10.120.204.39)[0m   File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/utils.py", line 465, in open_log
+[2m[33m(raylet, ip=10.120.204.39)[0m     stream = open(path, **kwargs)
+[2m[33m(raylet, ip=10.120.204.39)[0m OSError: [Errno 28] No space left on device: '/scratch/10942670/ray/session_2025-03-12_17-55-28_045275_1281358/logs/worker-a58cbac5037918a64839c16265d1a09d8ae46ac522853039afce402f-72000000-3108064.err'
+[2m[33m(raylet, ip=10.120.204.14)[0m [2025-03-12 18:12:04,550 E 582442 582599] (raylet) file_system_monitor.cc:111: /scratch/10942670/ray/session_2025-03-12_17-55-28_045275_1281358 is over 99.9% full, available space: 779075584; capacity: 837278007296. Object creation will fail if spilling is required.
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+[2m[33m(raylet, ip=10.120.204.39)[0m Traceback (most recent call last):
+[2m[33m(raylet, ip=10.120.204.39)[0m   File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/workers/default_worker.py", line 246, in <module>
+[2m[33m(raylet, ip=10.120.204.39)[0m     out_file, err_file = node.get_log_file_handles(
+[2m[33m(raylet, ip=10.120.204.39)[0m   File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/node.py", line 724, in get_log_file_handles
+[2m[33m(raylet, ip=10.120.204.39)[0m     log_stdout = open_log(self._get_log_file_name(name, "out", unique=unique))
+[2m[33m(raylet, ip=10.120.204.39)[0m   File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/utils.py", line 465, in open_log
+[2m[33m(raylet, ip=10.120.204.39)[0m     stream = open(path, **kwargs)
+[2m[33m(raylet, ip=10.120.204.39)[0m OSError: [Errno 28] No space left on device: '/scratch/10942670/ray/session_2025-03-12_17-55-28_045275_1281358/logs/worker-cec3b8bf01c8cfb29b30cd2b0ac54945160344f9505ea810c53c74db-72000000-3108182.out'
+[2m[33m(raylet, ip=10.120.204.39)[0m [2025-03-12 18:12:05,487 E 3108064 3108064] logging.cc:104: Stack trace: 
+[2m[33m(raylet, ip=10.120.204.39)[0m  /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_raylet.so(+0xd6f36a) [0x14932968d36a] ray::operator<<()
+[2m[33m(raylet, ip=10.120.204.39)[0m /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_raylet.so(+0xd71b28) [0x14932968fb28] ray::TerminateHandler()
+[2m[33m(raylet, ip=10.120.204.39)[0m /mnt/netapp1/Optcesga_FT2_RHEL7/2022/gentoo/31032022/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/libstdc++.so.6(+0xa8a76) [0x1493287aea76]
+[2m[33m(raylet, ip=10.120.204.39)[0m /mnt/netapp1/Optcesga_FT2_RHEL7/2022/gentoo/31032022/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/libstdc++.so.6(+0xa8ae1) [0x1493287aeae1]
+[2m[33m(raylet, ip=10.120.204.39)[0m /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_raylet.so(+0x6c24b9) [0x149328fe04b9]
+[2m[33m(raylet, ip=10.120.204.39)[0m /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_raylet.so(_ZN3ray4core6worker19TaskEventBufferImplD0Ev+0x12) [0x149328fe04d2] ray::core::worker::TaskEventBufferImpl::~TaskEventBufferImpl()
+[2m[33m(raylet, ip=10.120.204.39)[0m /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_raylet.so(_ZN3ray4core10CoreWorkerD1Ev+0x50) [0x149328f5dc80] ray::core::CoreWorker::~CoreWorker()
+[2m[33m(raylet, ip=10.120.204.39)[0m /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_raylet.so(+0x53ea6a) [0x149328e5ca6a] std::_Sp_counted_base<>::_M_release()
+[2m[33m(raylet, ip=10.120.204.39)[0m /home/ulc/cursos/curso341/.loc
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+[2m[33m(raylet, ip=10.120.204.14)[0m [2025-03-12 18:12:14,552 E 582442 582599] (raylet) file_system_monitor.cc:111: /scratch/10942670/ray/session_2025-03-12_17-55-28_045275_1281358 is over 99.9% full, available space: 0; capacity: 837278007296. Object creation will fail if spilling is required.
+[2m[33m(raylet, ip=10.120.204.14)[0m terminate called after throwing an instance of 'spdlog::spdlog_ex'
+[2m[33m(raylet, ip=10.120.204.14)[0m   what():  Failed opening file /scratch/10942670/ray/session_2025-03-12_17-55-28_045275_1281358/logs/python-core-worker-8b3881cb3a0bbdc21d8f68164801156133b85e8697b4eb7ce9f95b08_625020.log for writing: No space left on device
+[2m[33m(raylet, ip=10.120.204.14)[0m Fatal Python error: Aborted
+[2m[33m(raylet, ip=10.120.204.14)[0m 
+[2m[33m(raylet, ip=10.120.204.14)[0m Stack (most recent call first):
+[2m[33m(raylet, ip=10.120.204.14)[0m   File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/worker.py", line 2189 in connect
+[2m[33m(raylet, ip=10.120.204.14)[0m   File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/workers/default_worker.py", line 234 in <module>
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+[2m[33m(raylet, ip=10.120.204.14)[0m terminate called after throwing an instance of 'spdlog::spdlog_ex'
+[2m[33m(raylet, ip=10.120.204.14)[0m   what():  Failed opening file /scratch/10942670/ray/session_2025-03-12_17-55-28_045275_1281358/logs/python-core-worker-c914dc4b030043ef92816eb5bddea4daba21b14a28e21dddeed6c12c_625245.log for writing: No space left on device
+[2m[33m(raylet, ip=10.120.204.14)[0m Fatal Python error: Aborted
+[2m[33m(raylet, ip=10.120.204.14)[0m 
+[2m[33m(raylet, ip=10.120.204.14)[0m Stack (most recent call first):
+[2m[33m(raylet, ip=10.120.204.14)[0m   File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/worker.py", line 2189 in connect
+[2m[33m(raylet, ip=10.120.204.14)[0m   File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/workers/default_worker.py", line 234 in <module>
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+[2m[33m(raylet, ip=10.120.204.14)[0m Traceback (most recent call last):
+[2m[33m(raylet, ip=10.120.204.14)[0m   File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/workers/default_worker.py", line 246, in <module>
+[2m[33m(raylet, ip=10.120.204.14)[0m     out_file, err_file = node.get_log_file_handles(
+[2m[33m(raylet, ip=10.120.204.14)[0m   File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/node.py", line 726, in get_log_file_handles
+[2m[33m(raylet, ip=10.120.204.14)[0m     log_stderr = open_log(self._get_log_file_name(name, "err", unique=unique))
+[2m[33m(raylet, ip=10.120.204.14)[0m   File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/utils.py", line 465, in open_log
+[2m[33m(raylet, ip=10.120.204.14)[0m     stream = open(path, **kwargs)
+[2m[33m(raylet, ip=10.120.204.14)[0m OSError: [Errno 28] No space left on device: '/scratch/10942670/ray/session_2025-03-12_17-55-28_045275_1281358/logs/worker-e7e1549b8f6fd97776745819dec1b06e09b1b0c62697d73589df00df-18000000-625410.err'
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+[2m[33m(raylet, ip=10.120.204.14)[0m [2025-03-12 18:12:23,175 E 625410 625410] logging.cc:104: Stack trace: 
+[2m[33m(raylet, ip=10.120.204.14)[0m  /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_raylet.so(+0xd6f36a) [0x14be42a5936a] ray::operator<<()
+[2m[33m(raylet, ip=10.120.204.14)[0m /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_raylet.so(+0xd71b28) [0x14be42a5bb28] ray::TerminateHandler()
+[2m[33m(raylet, ip=10.120.204.14)[0m /mnt/netapp1/Optcesga_FT2_RHEL7/2022/gentoo/31032022/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/libstdc++.so.6(+0xa8a76) [0x14be41b7aa76]
+[2m[33m(raylet, ip=10.120.204.14)[0m /mnt/netapp1/Optcesga_FT2_RHEL7/2022/gentoo/31032022/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/libstdc++.so.6(+0xa8ae1) [0x14be41b7aae1]
+[2m[33m(raylet, ip=10.120.204.14)[0m /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_raylet.so(+0x6c24b9) [0x14be423ac4b9]
+[2m[33m(raylet, ip=10.120.204.14)[0m /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_raylet.so(_ZN3ray4core6worker19TaskEventBufferImplD0Ev+0x12) [0x14be423ac4d2] ray::core::worker::TaskEventBufferImpl::~TaskEventBufferImpl()
+[2m[33m(raylet, ip=10.120.204.14)[0m /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_raylet.so(_ZN3ray4core10CoreWorkerD1Ev+0x50) [0x14be42329c80] ray::core::CoreWorker::~CoreWorker()
+[2m[33m(raylet, ip=10.120.204.14)[0m /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_raylet.so(+0x53ea6a) [0x14be42228a6a] std::_Sp_counted_base<>::_M_release()
+[2m[33m(raylet, ip=10.120.204.14)[0m /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_raylet.so(_ZN3ray4core21CoreWorkerProcessImplD1Ev+0x101) [0x14be42363f41] ray::core::CoreWorkerProcessImpl::~CoreWorkerProcessImpl()
+[2m[33m(raylet, ip=10.120.204.14)[0m /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_raylet.so(_ZN3ray4core17CoreWorkerProcess12HandleAtExitEv+0x29) [0x14be42364119] ray::core::CoreWorkerProcess::HandleAtExit(
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 304, in spill_objects
+    with open(url, "wb", buffering=self._buffer_size) as f:
+OSError: [Errno 28] No space left on device: '/scratch/10942670/ray/session_2025-03-12_17-55-28_045275_1281358/ray_spilled_objects/e388ae2cd26946baaba0e9f4293f79a7-multi-1'
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device: '/scratch/10942670/ray/session_2025-03-12_17-55-28_045275_1281358/ray_spilled_objects/e388ae2cd26946baaba0e9f4293f79a7-multi-1'
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 304, in spill_objects
+    with open(url, "wb", buffering=self._buffer_size) as f:
+OSError: [Errno 28] No space left on device: '/scratch/10942670/ray/session_2025-03-12_17-55-28_045275_1281358/ray_spilled_objects/599dcff323474cb79dc5515f10076148-multi-16'
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device: '/scratch/10942670/ray/session_2025-03-12_17-55-28_045275_1281358/ray_spilled_objects/599dcff323474cb79dc5515f10076148-multi-16'
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 304, in spill_objects
+    with open(url, "wb", buffering=self._buffer_size) as f:
+OSError: [Errno 28] No space left on device: '/scratch/10942670/ray/session_2025-03-12_17-55-28_045275_1281358/ray_spilled_objects/1063e5f4ab154791b852dbbe5e5b8a70-multi-16'
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device: '/scratch/10942670/ray/session_2025-03-12_17-55-28_045275_1281358/ray_spilled_objects/1063e5f4ab154791b852dbbe5e5b8a70-multi-16'
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 304, in spill_objects
+    with open(url, "wb", buffering=self._buffer_size) as f:
+OSError: [Errno 28] No space left on device: '/scratch/10942670/ray/session_2025-03-12_17-55-28_045275_1281358/ray_spilled_objects/ed375dae1ef64c6b9467f731da3656b6-multi-17'
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device: '/scratch/10942670/ray/session_2025-03-12_17-55-28_045275_1281358/ray_spilled_objects/ed375dae1ef64c6b9467f731da3656b6-multi-17'
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 304, in spill_objects
+    with open(url, "wb", buffering=self._buffer_size) as f:
+OSError: [Errno 28] No space left on device: '/scratch/10942670/ray/session_2025-03-12_17-55-28_045275_1281358/ray_spilled_objects/c30de9ce661141b5a5e1d1f3eb179ce2-multi-26'
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device: '/scratch/10942670/ray/session_2025-03-12_17-55-28_045275_1281358/ray_spilled_objects/c30de9ce661141b5a5e1d1f3eb179ce2-multi-26'
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 304, in spill_objects
+    with open(url, "wb", buffering=self._buffer_size) as f:
+OSError: [Errno 28] No space left on device: '/scratch/10942670/ray/session_2025-03-12_17-55-28_045275_1281358/ray_spilled_objects/8fd74511d430427d8081e8a579f0b8f3-multi-26'
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device: '/scratch/10942670/ray/session_2025-03-12_17-55-28_045275_1281358/ray_spilled_objects/8fd74511d430427d8081e8a579f0b8f3-multi-26'
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 304, in spill_objects
+    with open(url, "wb", buffering=self._buffer_size) as f:
+OSError: [Errno 28] No space left on device: '/scratch/10942670/ray/session_2025-03-12_17-55-28_045275_1281358/ray_spilled_objects/d3c07d6083ad400ab18a87914f56f2d1-multi-20'
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device: '/scratch/10942670/ray/session_2025-03-12_17-55-28_045275_1281358/ray_spilled_objects/d3c07d6083ad400ab18a87914f56f2d1-multi-20'
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 304, in spill_objects
+    with open(url, "wb", buffering=self._buffer_size) as f:
+OSError: [Errno 28] No space left on device: '/scratch/10942670/ray/session_2025-03-12_17-55-28_045275_1281358/ray_spilled_objects/40ad74c0868d4803bea57f7d02de31eb-multi-26'
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device: '/scratch/10942670/ray/session_2025-03-12_17-55-28_045275_1281358/ray_spilled_objects/40ad74c0868d4803bea57f7d02de31eb-multi-26'
+Traceback (most recent call last):
+  File "python/ray/_raylet.pyx", line 1311, in ray._raylet.spill_objects_handler
+  File "python/ray/_raylet.pyx", line 1314, in ray._raylet.spill_objects_handler
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 668, in spill_objects
+    return _external_storage.spill_objects(object_refs, owner_addresses)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 305, in spill_objects
+    return self._write_multiple_objects(f, object_refs, owner_addresses, url)
+  File "/home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/ray/_private/external_storage.py", line 149, in _write_multiple_objects
+    written_bytes = f.write(payload)
+OSError: [Errno 28] No space left on device
+An unexpected internal error occurred while the IO worker was spilling objects: [Errno 28] No space left on device
+slurmstepd: error: *** JOB 10942670 ON ilk-155 CANCELLED AT 2025-03-12T18:15:53 DUE TO TIME LIMIT ***
+slurmstepd: error: *** STEP 10942670.8 ON ilk-156 CANCELLED AT 2025-03-12T18:15:53 DUE TO TIME LIMIT ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.

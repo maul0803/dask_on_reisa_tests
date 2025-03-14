@@ -2,9 +2,8 @@
 #SBATCH --time=00:20:00
 #SBATCH -o reisa.log
 #SBATCH --error reisa.log
-#SBATCH --mem-per-cpu=4G
 #SBATCH --wait-all-nodes=1
-##SBATCH --exclusive
+#SBATCH --exclusive
 ###################################################################################################
 start=$(date +%s%N)
 echo -e "Slurm job started at $(date +%d/%m/%Y_%X)\n"

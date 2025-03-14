@@ -1,0 +1,47 @@
+slurmstepd: info: Setting TMPDIR to /scratch/10878090. Previous errors about TMPDIR can be discarded
+Slurm job started at 06/03/2025_04:12:35 AM
+
+In transit.
+Initing Ray (1 head node + 8 worker nodes + 8 simulation nodes) on nodes: 
+	ilk-9 ilk-146 ilk-147 ilk-148 ilk-149 ilk-150 ilk-151 ilk-152 ilk-154 ilk-155 ilk-156 ilk-158 ilk-161 ilk-180 ilk-183 ilk-184 ilk-185
+Head node: 172.30.201.9:6379
+
+
+RAY_DEPLOY_TIME:     23.47399
+2025-03-06 04:13:02,048	INFO packaging.py:520 -- Creating a file package for local directory '/mnt/lustre/scratch/nlsas/home/ulc/cursos/curso341/dask_on_reisa_tests/E1/DASK_ON_REISA_ONE_ACTOR/reduction/P16-SN8-LS268-GS4294-I20-AN8-D2025-03-05_23-18-02'.
+2025-03-06 04:13:02,075	INFO packaging.py:347 -- Pushing file package 'gcs://_ray_pkg_3bca5e02c5b9ed7b.zip' (0.48MiB) to Ray cluster...
+2025-03-06 04:13:02,081	INFO packaging.py:360 -- Successfully pushed file package 'gcs://_ray_pkg_3bca5e02c5b9ed7b.zip'.
+RAY_INIT_TIME:       3.14964
+Iter [0]
+Iter [2]
+Iter [4]
+Iter [6]
+Iter [8]
+Iter [10]
+Iter [12]
+Iter [14]
+Iter [16]
+Iter [18]
+GLOBAL_PUT_TIME:     9.98340106010437 (avg:0.49917)
+ACTOR_CONCURRENCY:   8
+SIMULATION_TIME:     255.863287838000019 (avg: 12.793164391900001)
+SIM_WTHOUT_PDI:      85.200378727999976 (avg: 4.260018936399999)
+PDI_DELAY:           170.662909110000044 (avg: 8.533145455500001)
+
+GLOBAL_SIZE_(GiB):   4194304
+LOCAL_SIZE_(MiB):    256
+ITERATIONS:          20
+
+MPI_PER_NODE:        2
+MPI_PARALLELISM:     16
+
+WORKER_NODES:        8
+CPUS_PER_WORKER:     64
+WORKER_PARALLELISM:  512
+
+
+SLURM_JOB_ID:        10878090
+WARNING: 6 PYTHON worker processes have been started on node: e820ac879a6a799f620e86537dd5ea8df24944fb5a7c55dfb7054e93 with address: 172.30.204.11. This could be a result of using a large number of actors, or due to tasks blocked in ray.get() calls (see https://github.com/ray-project/ray/issues/3644 for some discussion of workarounds).
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 10878090.18 ON ilk-146 CANCELLED AT 2025-03-06T04:32:47 DUE TO TIME LIMIT ***
+slurmstepd: error: *** JOB 10878090 ON ilk-9 CANCELLED AT 2025-03-06T04:32:47 DUE TO TIME LIMIT ***

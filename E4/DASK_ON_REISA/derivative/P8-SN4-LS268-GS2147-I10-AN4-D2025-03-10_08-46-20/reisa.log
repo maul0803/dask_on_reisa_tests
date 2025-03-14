@@ -1,0 +1,301 @@
+slurmstepd: info: Setting TMPDIR to /scratch/10927281. Previous errors about TMPDIR can be discarded
+Slurm job started at 10/03/2025_08:54:55 AM
+
+In transit.
+Initing Ray (1 head node + 4 worker nodes + 4 simulation nodes) on nodes: 
+	ilk-88 ilk-145 ilk-146 ilk-147 ilk-148 ilk-149 ilk-177 ilk-187 ilk-189
+Head node: 172.30.202.40:6379
+
+
+RAY_DEPLOY_TIME:     23.95555
+2025-03-10 08:55:22,537	INFO packaging.py:520 -- Creating a file package for local directory '/mnt/lustre/scratch/nlsas/home/ulc/cursos/curso341/dask_on_reisa_tests/E4/DASK_ON_REISA/derivative/P8-SN4-LS268-GS2147-I10-AN4-D2025-03-10_08-46-20'.
+2025-03-10 08:55:22,565	INFO packaging.py:347 -- Pushing file package 'gcs://_ray_pkg_11dafbad57d75c93.zip' (0.48MiB) to Ray cluster...
+2025-03-10 08:55:22,570	INFO packaging.py:360 -- Successfully pushed file package 'gcs://_ray_pkg_11dafbad57d75c93.zip'.
+RAY_INIT_TIME:       4.86499
+Iter [0]
+Iter [1]
+Iter [2]
+[2m[36m(iter_task pid=2409055, ip=10.120.204.3)[0m /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/dask/config.py:693: UserWarning: Configuration key "shuffle" has been deprecated. Please use "dataframe.shuffle.algorithm" instead
+[2m[36m(iter_task pid=2409055, ip=10.120.204.3)[0m   warnings.warn(
+[2m[36m(iter_task pid=2409053, ip=10.120.204.3)[0m /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/dask/config.py:693: UserWarning: Configuration key "shuffle" has been deprecated. Please use "dataframe.shuffle.algorithm" instead
+[2m[36m(iter_task pid=2409053, ip=10.120.204.3)[0m   warnings.warn(
+[2m[36m(iter_task pid=2409052, ip=10.120.204.3)[0m /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/dask/config.py:693: UserWarning: Configuration key "shuffle" has been deprecated. Please use "dataframe.shuffle.algorithm" instead
+[2m[36m(iter_task pid=2409052, ip=10.120.204.3)[0m   warnings.warn(
+[2m[36m(iter_task pid=2409054, ip=10.120.204.3)[0m /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/dask/config.py:693: UserWarning: Configuration key "shuffle" has been deprecated. Please use "dataframe.shuffle.algorithm" instead
+[2m[36m(iter_task pid=2409054, ip=10.120.204.3)[0m   warnings.warn(
+[2m[36m(iter_task pid=2409056, ip=10.120.204.3)[0m /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/dask/config.py:693: UserWarning: Configuration key "shuffle" has been deprecated. Please use "dataframe.shuffle.algorithm" instead
+[2m[36m(iter_task pid=2409056, ip=10.120.204.3)[0m   warnings.warn(
+[2m[36m(iter_task pid=2409057, ip=10.120.204.3)[0m /home/ulc/cursos/curso341/.local/lib/python3.9/site-packages/dask/config.py:693: UserWarning: Configuration key "shuffle" has been deprecated. Please use "dataframe.shuffle.algorithm" instead
+[2m[36m(iter_task pid=2409057, ip=10.120.204.3)[0m   warnings.warn(
+Iter [3]
+Iter [4]
+Iter [5]
+Iter [6]
+Iter [7]
+Iter [8]
+Iter [9]
+GLOBAL_PUT_TIME:     4.313143014907837 (avg:0.43131)
+ACTOR_CONCURRENCY:   8
+SIMULATION_TIME:     34.491373983999999 (avg: 3.449137398400000)
+SIM_WTHOUT_PDI:      26.929274723999995 (avg: 2.692927472400000)
+PDI_DELAY:           7.562099260000004 (avg: 0.756209926000000)
+
+GLOBAL_SIZE_(GiB):   2097152
+LOCAL_SIZE_(MiB):    256
+ITERATIONS:          10
+
+MPI_PER_NODE:        2
+MPI_PARALLELISM:     8
+
+WORKER_NODES:        4
+CPUS_PER_WORKER:     64
+WORKER_PARALLELISM:  256
+
+
+SLURM_JOB_ID:        10927281
+EST_ANALYTICS_TIME:  112.47335 (avg:11.24734)
+
+Slurm job finished at 10/03/2025_08:57:19 AM
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 10927281)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 10927281
+Cluster: finisterrae3
+User/Group: curso341/ulc
+State: COMPLETED (exit code 0)
+Nodes: 9
+Cores per node: 64
+CPU Utilized: 00:06:18
+CPU Efficiency: 0.45% of 23:12:00 core-walltime
+Job Wall-clock time: 00:02:25
+Memory Utilized: 6.02 GB (estimated maximum)
+Memory Efficiency: 0.31% of 1.91 TB (3.39 GB/core)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ requesting less memory in other similar jobs.                         ++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+*****************************************************************************
+
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 10927281)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 10927281
+Cluster: finisterrae3
+User/Group: curso341/ulc
+State: COMPLETED (exit code 0)
+Nodes: 9
+Cores per node: 64
+CPU Utilized: 00:06:18
+CPU Efficiency: 0.45% of 23:12:00 core-walltime
+Job Wall-clock time: 00:02:25
+Memory Utilized: 6.02 GB (estimated maximum)
+Memory Efficiency: 0.31% of 1.91 TB (3.39 GB/core)
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ requesting less memory in other similar jobs.                         ++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+*****************************************************************************
+
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 10927281)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 10927281
+Cluster: finisterrae3
+User/Group: curso341/ulc
+State: COMPLETED (exit code 0)
+Nodes: 9
+Cores per node: 64
+CPU Utilized: 00:15:39
+CPU Efficiency: 1.12% of 23:12:00 core-walltime
+Job Wall-clock time: 00:02:25
+Memory Utilized: 7.96 GB
+Memory Efficiency: 0.41% of 1.91 TB
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ requesting less memory in other similar jobs.                         ++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+*****************************************************************************
+
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 10927281)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 10927281
+Cluster: finisterrae3
+User/Group: curso341/ulc
+State: COMPLETED (exit code 0)
+Nodes: 9
+Cores per node: 64
+CPU Utilized: 00:22:46
+CPU Efficiency: 1.64% of 23:12:00 core-walltime
+Job Wall-clock time: 00:02:25
+Memory Utilized: 14.64 GB
+Memory Efficiency: 0.75% of 1.91 TB
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ requesting less memory in other similar jobs.                         ++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+*****************************************************************************
+
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 10927281)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 10927281
+Cluster: finisterrae3
+User/Group: curso341/ulc
+State: COMPLETED (exit code 0)
+Nodes: 9
+Cores per node: 64
+CPU Utilized: 00:22:46
+CPU Efficiency: 1.64% of 23:12:00 core-walltime
+Job Wall-clock time: 00:02:25
+Memory Utilized: 14.64 GB
+Memory Efficiency: 0.75% of 1.91 TB
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ requesting less memory in other similar jobs.                         ++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+*****************************************************************************
+
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 10927281)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 10927281
+Cluster: finisterrae3
+User/Group: curso341/ulc
+State: COMPLETED (exit code 0)
+Nodes: 9
+Cores per node: 64
+CPU Utilized: 00:22:46
+CPU Efficiency: 1.64% of 23:12:00 core-walltime
+Job Wall-clock time: 00:02:25
+Memory Utilized: 14.64 GB
+Memory Efficiency: 0.75% of 1.91 TB
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ requesting less memory in other similar jobs.                         ++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+*****************************************************************************
+
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 10927281)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 10927281
+Cluster: finisterrae3
+User/Group: curso341/ulc
+State: COMPLETED (exit code 0)
+Nodes: 9
+Cores per node: 64
+CPU Utilized: 00:22:46
+CPU Efficiency: 1.64% of 23:12:00 core-walltime
+Job Wall-clock time: 00:02:25
+Memory Utilized: 14.64 GB
+Memory Efficiency: 0.75% of 1.91 TB
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ requesting less memory in other similar jobs.                         ++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+*****************************************************************************
+
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 10927281)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 10927281
+Cluster: finisterrae3
+User/Group: curso341/ulc
+State: COMPLETED (exit code 0)
+Nodes: 9
+Cores per node: 64
+CPU Utilized: 00:33:43
+CPU Efficiency: 2.42% of 23:12:00 core-walltime
+Job Wall-clock time: 00:02:25
+Memory Utilized: 14.64 GB
+Memory Efficiency: 0.75% of 1.91 TB
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ requesting less memory in other similar jobs.                         ++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+*****************************************************************************
+
+
+*****************************************************************************
+*                                                                           *
+*                    JOB EFFICIENCY REPORT (seff 10927281)                   *
+*                                                                           *
+*****************************************************************************
+
+Job ID: 10927281
+Cluster: finisterrae3
+User/Group: curso341/ulc
+State: COMPLETED (exit code 0)
+Nodes: 9
+Cores per node: 64
+CPU Utilized: 00:57:49
+CPU Efficiency: 4.15% of 23:12:00 core-walltime
+Job Wall-clock time: 00:02:25
+Memory Utilized: 20.10 GB
+Memory Efficiency: 1.03% of 1.91 TB
+
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ ++   Memory Efficiency is too small. Please review the requested memory. ++
+ ++ It seems that you do not need that much memory so we recommend        ++
+ ++ requesting less memory in other similar jobs.                         ++
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+*****************************************************************************
+
