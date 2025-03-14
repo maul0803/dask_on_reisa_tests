@@ -30,6 +30,34 @@ prefixes_reduction=(
     "P128-SN4-LS134-GS17179-I20-AN2"
 )
 
+#135 246 78
+prefixes_derivative=(
+    "P4-SN2-LS268-GS1073-I10-AN2"
+    "P8-SN4-LS268-GS2147-I10-AN4"
+    "P16-SN8-LS268-GS4294-I10-AN8"
+
+    "P4-SN2-LS536-GS2147-I10-AN2"
+    "P8-SN4-LS536-GS4294-I10-AN4"
+    "P16-SN8-LS536-GS8589-I10-AN8"
+
+    "P128-SN4-LS1-GS134-I10-AN2"
+    "P128-SN4-LS134-GS17179-I10-AN2"
+)
+
+
+prefixes_reduction=(
+    "P4-SN2-LS268-GS1073-I20-AN2"
+    "P8-SN4-LS268-GS2147-I20-AN4"
+    "P16-SN8-LS268-GS4294-I20-AN8"
+
+    "P4-SN2-LS536-GS2147-I20-AN2"
+    "P8-SN4-LS536-GS4294-I20-AN4"
+    "P16-SN8-LS536-GS8589-I20-AN8"
+
+    "P128-SN4-LS1-GS134-I20-AN2"
+    "P128-SN4-LS134-GS17179-I20-AN2"
+)
+
 # Function to calculate average
 calculate_average() {
     local sum=0
@@ -66,7 +94,7 @@ for category in "${categories[@]}"; do
         fi
 
         result_file="regs_csv/${category}_${task}.csv"
-        echo "Prefix;Analytics_Avg;Sim_Avg;PDI_Avg;Result_Ratio" > "$result_file"
+        echo "Prefix;Analytics_Avg;Sim_Avg;PDI_Avg;Result_Ratio;Total_Number_Of_Results;Total_Number_Of_Runs" > "$result_file"
 
         # Loop through prefixes and iterations
         for prefix in "${prefixes[@]}"; do
@@ -125,7 +153,7 @@ for category in "${categories[@]}"; do
             fi
 
             # Write results to CSV
-            echo "$prefix; $global_analytics_avg; $global_sim_avg; $global_pdi_avg; $ratio_results;" >> "$result_file"
+            echo "$prefix; $global_analytics_avg; $global_sim_avg; $global_pdi_avg; $ratio_results; $buffer_results; $buffer_total_results" >> "$result_file"
         done
 
         echo "Results for $category - $task saved in $result_file."
