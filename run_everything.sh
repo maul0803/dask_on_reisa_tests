@@ -6,7 +6,7 @@ export PATH=$PATH:/home/ulc/cursos/curso341/.local/bin
 START_DIR=$PWD
 
 #cd E1/DEISA; "$START_DIR/exp.sh"; cd $START_DIR;
-cd E1/REISA; "$START_DIR/exp.sh"; cd $START_DIR;
-cd E1/REISA_ONE_ACTOR; "$START_DIR/exp.sh"; cd $START_DIR;
-#cd E1/DASK_ON_REISA; "$START_DIR/exp.sh"; cd $START_DIR;
-#cd E1/DASK_ON_REISA_ONE_ACTOR; "$START_DIR/exp.sh"; cd $START_DIR;
+#cd E1/REISA; "$START_DIR/exp.sh"; cd $START_DIR;
+#cd E1/REISA_ONE_ACTOR; "$START_DIR/exp.sh"; cd $START_DIR;
+cd E2/DASK_ON_REISA; "$START_DIR/exp.sh"; cd $START_DIR;
+cd E2/DASK_ON_REISA_ONE_ACTOR; "$START_DIR/exp.sh"; cd $START_DIR;

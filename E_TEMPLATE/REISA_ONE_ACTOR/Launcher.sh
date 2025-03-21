@@ -11,10 +11,11 @@ fi
 PDI_PREFIX=$(grep "pdi_prefix" $CLUSTER_CONFIG_PATH | awk -F': ' '{print $2}' | tr -d ' ')
 PARTITION=$(grep "partition" $CLUSTER_CONFIG_PATH | awk -F': ' '{print $2}' | tr -d ' ')
 CORES_PER_NODE=$(grep "cores_per_node" $CLUSTER_CONFIG_PATH | awk -F': ' '{print $2}' | tr -d ' ')
+NUMBER_OF_CORES_TO_USE_PER_NODE=$(grep "number_of_cores_to_use_per_node" cluster_config.yml | awk -F': ' '{print $2}' | tr -d ' ')
 RAM_RAW=$(grep "ram_per_node" $CLUSTER_CONFIG_PATH | awk -F': ' '{print $2}' | tr -d ' ')
 
 # Validate extracted values
-if [ -z "$PDI_PREFIX" ] || [ -z "$PARTITION" ] || [ -z "$CORES_PER_NODE" ] || [ -z "$RAM_RAW" ]; then
+if [ -z "$PDI_PREFIX" ] || [ -z "$PARTITION" ] || [ -z "$CORES_PER_NODE" ] || [ -z "$NUMBER_OF_CORES_TO_USE_PER_NODE" ] || [ -z "$RAM_RAW" ]; then
   echo "Error: Failed to retrieve values from cluster_config.yml!" >&2
   exit 1
 fi
@@ -77,10 +78,10 @@ cd $OUTPUT
 # COMPILING
 (CC=gcc CXX=g++ pdirun cmake .) > /dev/null 2>&1
 pdirun make -B simulation > /dev/null 2>&1
-`which python` prescript.py $DATASIZE1 $DATASIZE2 $PARALLELISM1 $PARALLELISM2 $GENERATION $WORKER_NODES $MPI_PER_NODE $CORES_PER_NODE $WORKER_THREADING $SIMUNODES # Create config.yml
+`which python` prescript.py $DATASIZE1 $DATASIZE2 $PARALLELISM1 $PARALLELISM2 $GENERATION $WORKER_NODES $MPI_PER_NODE $NUMBER_OF_CORES_TO_USE_PER_NODE $WORKER_THREADING $SIMUNODES # Create config.yml
 
 echo -e "$0 $1 $2 $3 $4 $5 $6 $7 $8 $9 ${10}" > rerun.sh
 
 # RUNNING
-echo -e "Executing $(sbatch --parsable --nodes=$NNODES --mincpus=${CORES_PER_NODE} --mem-per-cpu=${MEM_PER_CPU}M --partition ${PARTITION} --ntasks=$NPROC Script.sh $SIMUNODES $MPI_PER_NODE $CORES_PER_NODE $9 ${10}) in $PWD    " >> ../../../../jobs.log
+echo -e "Executing $(sbatch --parsable --nodes=$NNODES --mincpus=${CORES_PER_NODE} --mem-per-cpu=${MEM_PER_CPU}M --partition ${PARTITION} --ntasks=$NPROC Script.sh $SIMUNODES $MPI_PER_NODE $NUMBER_OF_CORES_TO_USE_PER_NODE $9 ${10}) in $PWD    " >> ../../../../jobs.log
 cd $MAIN_DIR
