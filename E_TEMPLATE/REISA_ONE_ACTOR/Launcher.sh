@@ -11,7 +11,7 @@ fi
 PDI_PREFIX=$(grep "pdi_prefix" $CLUSTER_CONFIG_PATH | awk -F': ' '{print $2}' | tr -d ' ')
 PARTITION=$(grep "partition" $CLUSTER_CONFIG_PATH | awk -F': ' '{print $2}' | tr -d ' ')
 CORES_PER_NODE=$(grep "cores_per_node" $CLUSTER_CONFIG_PATH | awk -F': ' '{print $2}' | tr -d ' ')
-NUMBER_OF_CORES_TO_USE_PER_NODE=$(grep "number_of_cores_to_use_per_node" cluster_config.yml | awk -F': ' '{print $2}' | tr -d ' ')
+NUMBER_OF_CORES_TO_USE_PER_NODE=$(grep "number_of_cores_to_use_per_node" $CLUSTER_CONFIG_PATH | awk -F': ' '{print $2}' | tr -d ' ')
 RAM_RAW=$(grep "ram_per_node" $CLUSTER_CONFIG_PATH | awk -F': ' '{print $2}' | tr -d ' ')
 
 # Validate extracted values
